@@ -1,31 +1,149 @@
-import csv,json,os,xml.etree.ElementTree as ET
-from datetime import datetime,timezone
+import csv
+import json
+import time
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
 from pathlib import Path
+
 import requests
-ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
-URL=os.getenv("OVERPASS_URL","https://overpass-api.de/api/interpreter")
-Q='[out:json][timeout:240];area["ISO3166-1"="FR"][admin_level=2]->.fr;(nwr["shop"="bakery"](area.fr););out center tags;'
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+DATA.mkdir(exist_ok=True)
+
+# Plusieurs instances Overpass : si l'une est indisponible ou saturée,
+# le script essaie automatiquement la suivante.
+OVERPASS_SERVERS = [
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
+    "https://overpass-api.de/api/interpreter",
+]
+
+QUERY = """
+[out:json][timeout:240];
+area["ISO3166-1"="FR"][admin_level=2]->.fr;
+(
+  nwr["shop"="bakery"](area.fr);
+);
+out center tags;
+"""
+
+
+def download_bakeries():
+    headers = {"User-Agent": "BOULANGERIES-FRANCE/1.1 (OpenStreetMap data updater)"}
+    errors = []
+
+    for server in OVERPASS_SERVERS:
+        for attempt in range(1, 3):
+            try:
+                print(f"Interrogation Overpass : {server} (essai {attempt}/2)", flush=True)
+                response = requests.post(
+                    server,
+                    data={"data": QUERY},
+                    headers=headers,
+                    timeout=(30, 360),
+                )
+                response.raise_for_status()
+                payload = response.json()
+                elements = payload.get("elements", [])
+                if not elements:
+                    raise RuntimeError("Réponse Overpass vide : aucune donnée ne sera remplacée")
+                print(f"Réponse reçue : {len(elements)} objets OpenStreetMap", flush=True)
+                return elements
+            except Exception as exc:
+                message = f"{server} essai {attempt}: {type(exc).__name__}: {exc}"
+                errors.append(message)
+                print(message, flush=True)
+                if attempt < 2:
+                    time.sleep(8)
+
+    raise RuntimeError(
+        "Toutes les instances Overpass ont échoué. "
+        "Les fichiers précédents sont conservés. Détails : " + " | ".join(errors)
+    )
+
+
 def main():
- r=requests.post(URL,data={"data":Q},headers={"User-Agent":"BOULANGERIES-FRANCE/1.0"},timeout=300);r.raise_for_status()
- now=datetime.now(timezone.utc); oldfile=DATA/"_previous.json"
- old={x["id"] for x in json.loads(oldfile.read_text())} if oldfile.exists() else None
- rows=[]
- for e in r.json().get("elements",[]):
-  t=e.get("tags",{}); c=e.get("center",{}); lat=e.get("lat",c.get("lat")); lon=e.get("lon",c.get("lon"))
-  if lat is None or lon is None: continue
-  rows.append({"id":f'{e["type"]}:{e["id"]}',"nom":t.get("name","Boulangerie sans nom"),"adresse":", ".join(filter(None,[t.get("addr:housenumber"),t.get("addr:street"),t.get("addr:postcode"),t.get("addr:city")])),"code_postal":t.get("addr:postcode",""),"commune":t.get("addr:city",""),"latitude":lat,"longitude":lon,"telephone":t.get("phone",t.get("contact:phone","")),"horaires":t.get("opening_hours",""),"site":t.get("website",t.get("contact:website","")),"osm_url":f'https://www.openstreetmap.org/{e["type"]}/{e["id"]}'})
- rows.sort(key=lambda x:(x["code_postal"],x["commune"],x["nom"]))
- if not rows: raise RuntimeError("Réponse vide : données non remplacées")
- (DATA/"boulangeries.json").write_text(json.dumps({"generated_at":now.isoformat(),"source":"OpenStreetMap / Overpass","count":len(rows),"items":rows},ensure_ascii=False,indent=2),encoding="utf-8")
- with (DATA/"boulangeries.csv").open("w",newline="",encoding="utf-8-sig") as f:
-  w=csv.DictWriter(f,fieldnames=list(rows[0]),delimiter=";");w.writeheader();w.writerows(rows)
- fresh=[] if old is None else [x for x in rows if x["id"] not in old]
- ch=ET.Element("channel")
- for k,v in [("title","Boulangeries France - nouvelles entrées"),("link","https://github.com/Hfoury/BOULANGERIES-FRANCE"),("description","Nouvelles boulangeries repérées dans OpenStreetMap. Une nouvelle entrée ne prouve pas une ouverture commerciale."),("lastBuildDate",now.strftime("%a, %d %b %Y %H:%M:%S +0000"))]: ET.SubElement(ch,k).text=v
- root=ET.Element("rss",version="2.0");root.append(ch)
- for x in fresh:
-  it=ET.SubElement(ch,"item");ET.SubElement(it,"title").text=x["nom"]+" - "+(x["commune"] or x["code_postal"]);ET.SubElement(it,"link").text=x["osm_url"];ET.SubElement(it,"guid",isPermaLink="false").text=x["id"];ET.SubElement(it,"description").text=x["adresse"]
- ET.ElementTree(root).write(DATA/"flux.rss",encoding="utf-8",xml_declaration=True)
- oldfile.write_text(json.dumps(rows,ensure_ascii=False),encoding="utf-8")
- print(f"{len(rows)} boulangeries ; {len(fresh)} nouvelles entrées")
-if __name__=="__main__": main()
+    elements = download_bakeries()
+    now = datetime.now(timezone.utc)
+    oldfile = DATA / "_previous.json"
+    old = None
+    if oldfile.exists():
+        try:
+            old = {item["id"] for item in json.loads(oldfile.read_text(encoding="utf-8"))}
+        except (OSError, ValueError, KeyError, TypeError):
+            print("Historique précédent illisible : le flux signalera les nouveautés au prochain passage.", flush=True)
+
+    rows = []
+    for element in elements:
+        tags = element.get("tags", {})
+        center = element.get("center", {})
+        lat = element.get("lat", center.get("lat"))
+        lon = element.get("lon", center.get("lon"))
+        if lat is None or lon is None:
+            continue
+
+        rows.append({
+            "id": f'{element["type"]}:{element["id"]}',
+            "nom": tags.get("name", "Boulangerie sans nom"),
+            "adresse": ", ".join(filter(None, [
+                tags.get("addr:housenumber"),
+                tags.get("addr:street"),
+                tags.get("addr:postcode"),
+                tags.get("addr:city"),
+            ])),
+            "code_postal": tags.get("addr:postcode", ""),
+            "commune": tags.get("addr:city", ""),
+            "latitude": lat,
+            "longitude": lon,
+            "telephone": tags.get("phone", tags.get("contact:phone", "")),
+            "horaires": tags.get("opening_hours", ""),
+            "site": tags.get("website", tags.get("contact:website", "")),
+            "osm_url": f'https://www.openstreetmap.org/{element["type"]}/{element["id"]}',
+        })
+
+    rows.sort(key=lambda item: (item["code_postal"], item["commune"], item["nom"]))
+    if not rows:
+        raise RuntimeError("Aucune boulangerie exploitable : données précédentes conservées")
+
+    output = {
+        "generated_at": now.isoformat(),
+        "source": "OpenStreetMap / Overpass",
+        "count": len(rows),
+        "items": rows,
+    }
+    (DATA / "boulangeries.json").write_text(
+        json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    with (DATA / "boulangeries.csv").open("w", newline="", encoding="utf-8-sig") as file:
+        writer = csv.DictWriter(file, fieldnames=list(rows[0]), delimiter=";")
+        writer.writeheader()
+        writer.writerows(rows)
+
+    fresh = [] if old is None else [item for item in rows if item["id"] not in old]
+    channel = ET.Element("channel")
+    for key, value in [
+        ("title", "Boulangeries France - nouvelles entrées"),
+        ("link", "https://github.com/Hfoury/BOULANGERIES-FRANCE"),
+        ("description", "Nouvelles boulangeries repérées dans OpenStreetMap. Une nouvelle entrée ne prouve pas une ouverture commerciale."),
+        ("lastBuildDate", now.strftime("%a, %d %b %Y %H:%M:%S +0000")),
+    ]:
+        ET.SubElement(channel, key).text = value
+
+    root = ET.Element("rss", version="2.0")
+    root.append(channel)
+    for item in fresh:
+        rss_item = ET.SubElement(channel, "item")
+        ET.SubElement(rss_item, "title").text = item["nom"] + " - " + (item["commune"] or item["code_postal"])
+        ET.SubElement(rss_item, "link").text = item["osm_url"]
+        ET.SubElement(rss_item, "guid", isPermaLink="false").text = item["id"]
+        ET.SubElement(rss_item, "description").text = item["adresse"]
+
+    ET.ElementTree(root).write(DATA / "flux.rss", encoding="utf-8", xml_declaration=True)
+    oldfile.write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+    print(f"{len(rows)} boulangeries ; {len(fresh)} nouvelles entrées", flush=True)
+
+
+if __name__ == "__main__":
+    main()
