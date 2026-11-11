@@ -11,56 +11,79 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 DATA.mkdir(exist_ok=True)
 
-# Plusieurs instances Overpass : si l'une est indisponible ou saturée,
-# le script essaie automatiquement la suivante.
+# Découpage géographique : les rectangles se chevauchent légèrement.
+# Les identifiants OSM servent à éliminer les doublons.
+REGIONS = [
+    ("Auvergne-Rhône-Alpes", 44.0, 2.0, 46.8, 7.2),
+    ("Bourgogne-Franche-Comté", 46.0, 3.3, 48.5, 7.2),
+    ("Bretagne", 47.2, -5.3, 48.9, -1.0),
+    ("Centre-Val de Loire", 46.3, 0.0, 48.9, 3.0),
+    ("Corse", 41.3, 8.4, 43.1, 9.7),
+    ("Grand Est", 47.3, 4.8, 50.3, 8.3),
+    ("Hauts-de-France", 49.5, 1.3, 51.3, 4.3),
+    ("Normandie", 48.1, -1.9, 50.2, 1.9),
+    ("Nouvelle-Aquitaine", 42.7, -1.8, 47.2, 1.5),
+    ("Occitanie", 42.3, -0.2, 45.1, 4.9),
+    ("Pays de la Loire", 46.2, -2.0, 48.6, 0.9),
+    ("Provence-Alpes-Côte d'Azur", 42.9, 4.2, 45.2, 7.8),
+    ("Île-de-France", 48.1, 1.4, 49.3, 3.6),
+    ("Guadeloupe", 15.8, -61.9, 16.6, -60.9),
+    ("Martinique", 14.3, -61.3, 14.9, -60.7),
+    ("Guyane", 2.0, -54.7, 5.9, -51.6),
+    ("La Réunion", -21.4, 55.2, -20.8, 55.9),
+    ("Mayotte", -13.1, 45.0, -12.6, 45.3),
+]
+
 OVERPASS_SERVERS = [
     "https://overpass.kumi.systems/api/interpreter",
     "https://overpass.private.coffee/api/interpreter",
-    "https://overpass-api.de/api/interpreter",
 ]
 
-QUERY = """
-[out:json][timeout:240];
-area["ISO3166-1"="FR"][admin_level=2]->.fr;
-(
-  nwr["shop"="bakery"](area.fr);
-);
-out center tags;
-"""
+
+def download_region(session, name, south, west, north, east):
+    query = f"""
+    [out:json][timeout:90];
+    (
+      nwr["shop"="bakery"]({south},{west},{north},{east});
+    );
+    out center tags;
+    """
+    errors = []
+    for server in OVERPASS_SERVERS:
+        try:
+            print(f"Région {name} — interrogation {server}", flush=True)
+            response = session.post(
+                server,
+                data={"data": query},
+                timeout=(20, 90),
+            )
+            response.raise_for_status()
+            elements = response.json().get("elements", [])
+            print(f"Région {name} : {len(elements)} objets reçus", flush=True)
+            return elements
+        except Exception as exc:
+            message = f"{server}: {type(exc).__name__}: {exc}"
+            errors.append(message)
+            print(f"Échec {name} — {message}", flush=True)
+            time.sleep(2)
+    raise RuntimeError(f"Collecte impossible pour {name}. " + " | ".join(errors))
 
 
 def download_bakeries():
-    headers = {"User-Agent": "BOULANGERIES-FRANCE/1.1 (OpenStreetMap data updater)"}
-    errors = []
-
-    for server in OVERPASS_SERVERS:
-        for attempt in range(1, 3):
-            try:
-                print(f"Interrogation Overpass : {server} (essai {attempt}/2)", flush=True)
-                response = requests.post(
-                    server,
-                    data={"data": QUERY},
-                    headers=headers,
-                    timeout=(30, 360),
-                )
-                response.raise_for_status()
-                payload = response.json()
-                elements = payload.get("elements", [])
-                if not elements:
-                    raise RuntimeError("Réponse Overpass vide : aucune donnée ne sera remplacée")
-                print(f"Réponse reçue : {len(elements)} objets OpenStreetMap", flush=True)
-                return elements
-            except Exception as exc:
-                message = f"{server} essai {attempt}: {type(exc).__name__}: {exc}"
-                errors.append(message)
-                print(message, flush=True)
-                if attempt < 2:
-                    time.sleep(8)
-
-    raise RuntimeError(
-        "Toutes les instances Overpass ont échoué. "
-        "Les fichiers précédents sont conservés. Détails : " + " | ".join(errors)
-    )
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "BOULANGERIES-FRANCE/2.0 (OpenStreetMap data updater)"
+    })
+    unique = {}
+    for index, (name, south, west, north, east) in enumerate(REGIONS, 1):
+        print(f"=== {index}/{len(REGIONS)} : {name} ===", flush=True)
+        elements = download_region(session, name, south, west, north, east)
+        for element in elements:
+            unique[f'{element["type"]}:{element["id"]}'] = element
+    if not unique:
+        raise RuntimeError("Aucune boulangerie reçue : données précédentes conservées")
+    print(f"Collecte terminée : {len(unique)} objets uniques", flush=True)
+    return list(unique.values())
 
 
 def main():
@@ -72,7 +95,7 @@ def main():
         try:
             old = {item["id"] for item in json.loads(oldfile.read_text(encoding="utf-8"))}
         except (OSError, ValueError, KeyError, TypeError):
-            print("Historique précédent illisible : le flux signalera les nouveautés au prochain passage.", flush=True)
+            print("Historique précédent illisible : les nouveautés ne seront pas calculées.", flush=True)
 
     rows = []
     for element in elements:
@@ -82,15 +105,12 @@ def main():
         lon = element.get("lon", center.get("lon"))
         if lat is None or lon is None:
             continue
-
         rows.append({
             "id": f'{element["type"]}:{element["id"]}',
             "nom": tags.get("name", "Boulangerie sans nom"),
             "adresse": ", ".join(filter(None, [
-                tags.get("addr:housenumber"),
-                tags.get("addr:street"),
-                tags.get("addr:postcode"),
-                tags.get("addr:city"),
+                tags.get("addr:housenumber"), tags.get("addr:street"),
+                tags.get("addr:postcode"), tags.get("addr:city"),
             ])),
             "code_postal": tags.get("addr:postcode", ""),
             "commune": tags.get("addr:city", ""),
@@ -115,7 +135,6 @@ def main():
     (DATA / "boulangeries.json").write_text(
         json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-
     with (DATA / "boulangeries.csv").open("w", newline="", encoding="utf-8-sig") as file:
         writer = csv.DictWriter(file, fieldnames=list(rows[0]), delimiter=";")
         writer.writeheader()
@@ -130,7 +149,6 @@ def main():
         ("lastBuildDate", now.strftime("%a, %d %b %Y %H:%M:%S +0000")),
     ]:
         ET.SubElement(channel, key).text = value
-
     root = ET.Element("rss", version="2.0")
     root.append(channel)
     for item in fresh:
@@ -139,7 +157,6 @@ def main():
         ET.SubElement(rss_item, "link").text = item["osm_url"]
         ET.SubElement(rss_item, "guid", isPermaLink="false").text = item["id"]
         ET.SubElement(rss_item, "description").text = item["adresse"]
-
     ET.ElementTree(root).write(DATA / "flux.rss", encoding="utf-8", xml_declaration=True)
     oldfile.write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
     print(f"{len(rows)} boulangeries ; {len(fresh)} nouvelles entrées", flush=True)
