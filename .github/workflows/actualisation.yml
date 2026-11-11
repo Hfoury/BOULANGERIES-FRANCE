@@ -1,5 +1,10 @@
 name: Actualisation quotidienne
 on:
+  push:
+    paths:
+      - "scripts/update_bakeries_geofabrik.py"
+      - "requirements.txt"
+      - ".github/workflows/actualisation.yml"
   schedule:
     - cron: "20 4 * * *"
   workflow_dispatch:
