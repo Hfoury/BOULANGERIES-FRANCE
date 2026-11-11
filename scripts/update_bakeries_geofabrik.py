@@ -1,6 +1,7 @@
 import csv
 import json
 import tempfile
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -72,18 +73,66 @@ class BakeryHandler(osmium.SimpleHandler):
         self.inspect(obj)
 
 def download(url, path):
+    """Télécharge un extrait Geofabrik avec reprises sur erreurs temporaires."""
     headers = {"User-Agent": "BOULANGERIES-FRANCE/3.0 (OpenStreetMap data updater)"}
-    with requests.get(url, headers=headers, stream=True, timeout=(20, 240)) as response:
-        response.raise_for_status()
-        size = 0
-        with path.open("wb") as out:
-            for chunk in response.iter_content(1024 * 1024):
-                if chunk:
-                    out.write(chunk)
-                    size += len(chunk)
-        if size < 1024 * 1024:
-            raise RuntimeError(f"Extrait anormalement petit : {url}")
-        print(f"Téléchargé {path.name}: {size / 1024 / 1024:.1f} Mio", flush=True)
+    temporary_path = path.with_suffix(path.suffix + ".part")
+    max_attempts = 6
+    retryable_statuses = {429, 500, 502, 503, 504}
+
+    for attempt in range(1, max_attempts + 1):
+        try:
+            size = 0
+            with requests.get(url, headers=headers, stream=True, timeout=(30, 300)) as response:
+                if response.status_code in retryable_statuses:
+                    retry_after = response.headers.get("Retry-After")
+                    try:
+                        delay = min(int(retry_after), 180) if retry_after else min(15 * (2 ** (attempt - 1)), 180)
+                    except ValueError:
+                        delay = min(15 * (2 ** (attempt - 1)), 180)
+                    raise requests.exceptions.HTTPError(
+                        f"Erreur HTTP temporaire {response.status_code}; nouvelle tentative dans {delay}s",
+                        response=response,
+                    )
+                response.raise_for_status()
+                with temporary_path.open("wb") as out:
+                    for chunk in response.iter_content(1024 * 1024):
+                        if chunk:
+                            out.write(chunk)
+                            size += len(chunk)
+
+            if size < 1024 * 1024:
+                raise RuntimeError(f"Extrait anormalement petit : {url}")
+
+            temporary_path.replace(path)
+            print(f"Téléchargé {path.name}: {size / 1024 / 1024:.1f} Mio", flush=True)
+            return
+
+        except requests.exceptions.RequestException as error:
+            if temporary_path.exists():
+                temporary_path.unlink()
+            status = getattr(getattr(error, "response", None), "status_code", None)
+            if status is not None and status not in retryable_statuses:
+                raise
+            if attempt == max_attempts:
+                raise RuntimeError(
+                    f"Échec du téléchargement après {max_attempts} tentatives : {url} ({error})"
+                ) from error
+
+            retry_after = getattr(getattr(error, "response", None), "headers", {}).get("Retry-After")
+            try:
+                delay = min(int(retry_after), 180) if retry_after else min(15 * (2 ** (attempt - 1)), 180)
+            except ValueError:
+                delay = min(15 * (2 ** (attempt - 1)), 180)
+            print(
+                f"Téléchargement temporairement indisponible ({error}). "
+                f"Tentative {attempt + 1}/{max_attempts} dans {delay}s.",
+                flush=True,
+            )
+            time.sleep(delay)
+        except Exception:
+            if temporary_path.exists():
+                temporary_path.unlink()
+            raise
 
 def main():
     unique = {}
