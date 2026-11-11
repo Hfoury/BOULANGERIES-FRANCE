@@ -1,5 +1,7 @@
 name: Actualisation quotidienne
 on:
+  schedule:
+    - cron: "20 4 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -9,14 +11,14 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python scripts/update_bakeries.py
+      - run: python scripts/update_bakeries_geofabrik.py
       - name: Commit des données
         run: |
           git config user.name "github-actions[bot]"
