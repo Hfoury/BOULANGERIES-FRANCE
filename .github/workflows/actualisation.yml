@@ -1,5 +1,8 @@
 name: Actualisation quotidienne
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "20 4 * * *"
   workflow_dispatch:
