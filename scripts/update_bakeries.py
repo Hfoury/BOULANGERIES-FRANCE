@@ -43,7 +43,7 @@ OVERPASS_SERVERS = [
 
 def download_region(session, name, south, west, north, east, depth=0):
     query = f"""
-    [out:json][timeout:90];
+    [out:json][timeout:30];
     (
       nwr["shop"="bakery"]({south},{west},{north},{east});
     );
@@ -54,7 +54,7 @@ def download_region(session, name, south, west, north, east, depth=0):
         try:
             print(f"Secteur {name} — interrogation {server}", flush=True)
             response = session.post(
-                server, data={"data": query}, timeout=(20, 100)
+                server, data={"data": query}, timeout=(8, 35)
             )
             response.raise_for_status()
             payload = response.json()
@@ -67,11 +67,11 @@ def download_region(session, name, south, west, north, east, depth=0):
             message = f"{server}: {type(exc).__name__}: {exc}"
             errors.append(message)
             print(f"Échec {name} — {message}", flush=True)
-            time.sleep(2)
+            time.sleep(1)
 
     # Une grande zone peut dépasser les capacités d'Overpass : on la découpe
     # récursivement en quatre secteurs, sans abandonner toute la France.
-    if depth < 4:
+    if depth < 2:
         mid_lat = (south + north) / 2
         mid_lon = (west + east) / 2
         print(f"Subdivision automatique de {name} (niveau {depth + 1})", flush=True)
