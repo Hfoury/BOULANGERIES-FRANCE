@@ -1,0 +1,22 @@
+name: Test des extraits OSM Geofabrik
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/test_geofabrik.py'
+      - '.github/workflows/test-geofabrik.yml'
+permissions:
+  contents: read
+jobs:
+  test-extracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Installer PyOsmium
+        run: pip install requests osmium
+      - name: Tester les extraits régionaux
+        run: python scripts/test_geofabrik.py
