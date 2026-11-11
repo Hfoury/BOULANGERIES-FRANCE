@@ -37,10 +37,11 @@ REGIONS = [
 OVERPASS_SERVERS = [
     "https://overpass.kumi.systems/api/interpreter",
     "https://overpass.private.coffee/api/interpreter",
+    "https://overpass-api.de/api/interpreter",
 ]
 
 
-def download_region(session, name, south, west, north, east):
+def download_region(session, name, south, west, north, east, depth=0):
     query = f"""
     [out:json][timeout:90];
     (
@@ -51,22 +52,46 @@ def download_region(session, name, south, west, north, east):
     errors = []
     for server in OVERPASS_SERVERS:
         try:
-            print(f"Région {name} — interrogation {server}", flush=True)
+            print(f"Secteur {name} — interrogation {server}", flush=True)
             response = session.post(
-                server,
-                data={"data": query},
-                timeout=(20, 90),
+                server, data={"data": query}, timeout=(20, 100)
             )
             response.raise_for_status()
-            elements = response.json().get("elements", [])
-            print(f"Région {name} : {len(elements)} objets reçus", flush=True)
+            payload = response.json()
+            if "elements" not in payload:
+                raise RuntimeError("Réponse Overpass sans liste elements")
+            elements = payload["elements"]
+            print(f"Secteur {name} : {len(elements)} objets reçus", flush=True)
             return elements
         except Exception as exc:
             message = f"{server}: {type(exc).__name__}: {exc}"
             errors.append(message)
             print(f"Échec {name} — {message}", flush=True)
             time.sleep(2)
-    raise RuntimeError(f"Collecte impossible pour {name}. " + " | ".join(errors))
+
+    # Une grande zone peut dépasser les capacités d'Overpass : on la découpe
+    # récursivement en quatre secteurs, sans abandonner toute la France.
+    if depth < 4:
+        mid_lat = (south + north) / 2
+        mid_lon = (west + east) / 2
+        print(f"Subdivision automatique de {name} (niveau {depth + 1})", flush=True)
+        sectors = [
+            ("sud-ouest", south, west, mid_lat, mid_lon),
+            ("sud-est", south, mid_lon, mid_lat, east),
+            ("nord-ouest", mid_lat, west, north, mid_lon),
+            ("nord-est", mid_lat, mid_lon, north, east),
+        ]
+        combined = []
+        for suffix, s, w, n, e in sectors:
+            combined.extend(download_region(
+                session, f"{name}/{suffix}", s, w, n, e, depth + 1
+            ))
+        return combined
+
+    raise RuntimeError(
+        f"Collecte impossible pour {name} après 4 niveaux de subdivision. "
+        + " | ".join(errors)
+    )
 
 
 def download_bakeries():
