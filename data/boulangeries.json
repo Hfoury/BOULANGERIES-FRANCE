@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12T06:43:05.702856+00:00",
+  "generated_at": "2026-11-13T06:50:47.882101+00:00",
   "source": "OpenStreetMap / Geofabrik (extraits régionaux)",
-  "count": 29568,
+  "count": 29567,
   "items": [
     {
       "id": "node:7347567511",
@@ -4240,6 +4240,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/2408861785"
+    },
+    {
+      "id": "way:1578283748",
+      "nom": "Artisan Saint Andrieu (boulangerie-pâtisserie)",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 44.992551000000006,
+      "longitude": -0.43015318,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/way/1578283748"
     },
     {
       "id": "node:8189217834",
@@ -11509,17 +11522,17 @@
       "osm_url": "https://www.openstreetmap.org/node/13231590948"
     },
     {
-      "id": "way:719295118",
+      "id": "node:14370260140",
       "nom": "Au Petit Canon",
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 49.07433767142857,
-      "longitude": -0.0871905142857143,
+      "latitude": 49.0743342,
+      "longitude": -0.0871827,
       "telephone": "",
       "horaires": "",
       "site": "",
-      "osm_url": "https://www.openstreetmap.org/way/719295118"
+      "osm_url": "https://www.openstreetmap.org/node/14370260140"
     },
     {
       "id": "node:902491212",
@@ -54305,6 +54318,19 @@
       "osm_url": "https://www.openstreetmap.org/node/5322122231"
     },
     {
+      "id": "node:9393946786",
+      "nom": "Boulangerie Patisserie",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 48.6308561,
+      "longitude": 2.4124562,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/9393946786"
+    },
+    {
       "id": "node:12921192577",
       "nom": "Boulangerie Patisserie",
       "adresse": "",
@@ -55096,19 +55122,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/3898294349"
-    },
-    {
-      "id": "node:3953413941",
-      "nom": "Boulangerie Patisserie",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 45.7472584,
-      "longitude": 4.7256083,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/3953413941"
     },
     {
       "id": "node:4029652705",
@@ -56104,8 +56117,8 @@
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 48.1076193,
-      "longitude": -1.4045903,
+      "latitude": 48.1076121,
+      "longitude": -1.4045802,
       "telephone": "+33 2 99 00 36 42",
       "horaires": "Mo-Fr 07:00-19:30; Sa off; Su 07:00-13:00",
       "site": "",
@@ -62298,6 +62311,19 @@
       "horaires": "Tu-Sa 07:00-19:30; Su 07:00-13:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/way/218608153"
+    },
+    {
+      "id": "node:6207211187",
+      "nom": "Boulangerie Pâtisserie Maison A&F",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 48.6284831,
+      "longitude": 2.4523327,
+      "telephone": "",
+      "horaires": "Mo-Su 06:00-21:00",
+      "site": "https://boulangerie-patisserie-sydney-evry-courcouronnes.eatbu.com",
+      "osm_url": "https://www.openstreetmap.org/node/6207211187"
     },
     {
       "id": "node:388179391",
@@ -71283,6 +71309,19 @@
       "osm_url": "https://www.openstreetmap.org/node/5525362050"
     },
     {
+      "id": "node:12301184714",
+      "nom": "Boulangerie de la gare",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 48.6237469,
+      "longitude": 2.4509215,
+      "telephone": "",
+      "horaires": "Mo-Su 06:00-22:00",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/12301184714"
+    },
+    {
       "id": "node:13030359101",
       "nom": "Boulangerie de la gare",
       "adresse": "",
@@ -73714,19 +73753,6 @@
       "osm_url": "https://www.openstreetmap.org/way/65086385"
     },
     {
-      "id": "node:6207211187",
-      "nom": "Boulangerie du Mousseau",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.6284831,
-      "longitude": 2.4523327,
-      "telephone": "",
-      "horaires": "Mo-Sa 07:00-20:00; Su 07:00-14:00",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/6207211187"
-    },
-    {
       "id": "node:4973609091",
       "nom": "Boulangerie du Métro Pelleport",
       "adresse": "",
@@ -75506,19 +75532,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/4337286079"
-    },
-    {
-      "id": "node:5685997889",
-      "nom": "Boulangerie pâtisserie",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 45.8483425,
-      "longitude": 5.6513375,
-      "telephone": "",
-      "horaires": "Tu-Sa 07:00-12:30,15:30-19:30; Su 07:00-12:30",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/5685997889"
     },
     {
       "id": "node:12752407194",
@@ -88183,19 +88196,6 @@
       "osm_url": "https://www.openstreetmap.org/node/5804116681"
     },
     {
-      "id": "node:5810345191",
-      "nom": "Boulangerie sans nom",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.4349136,
-      "longitude": 1.4782246,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/5810345191"
-    },
-    {
       "id": "node:5909921713",
       "nom": "Boulangerie sans nom",
       "adresse": "",
@@ -99584,19 +99584,6 @@
       "osm_url": "https://www.openstreetmap.org/node/9359293352"
     },
     {
-      "id": "node:9393946786",
-      "nom": "Boulangerie sans nom",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.6308543,
-      "longitude": 2.4124052,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/9393946786"
-    },
-    {
       "id": "node:9433654235",
       "nom": "Boulangerie sans nom",
       "adresse": "",
@@ -100377,19 +100364,6 @@
       "osm_url": "https://www.openstreetmap.org/node/12176842966"
     },
     {
-      "id": "node:12301184714",
-      "nom": "Boulangerie sans nom",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.6237469,
-      "longitude": 2.4509215,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/12301184714"
-    },
-    {
       "id": "node:12326949235",
       "nom": "Boulangerie sans nom",
       "adresse": "",
@@ -100895,19 +100869,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/14170607172"
-    },
-    {
-      "id": "node:14182394882",
-      "nom": "Boulangerie sans nom",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.6305469,
-      "longitude": 2.414576,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/14182394882"
     },
     {
       "id": "node:14286738968",
@@ -124791,6 +124752,19 @@
       "osm_url": "https://www.openstreetmap.org/way/1545859492"
     },
     {
+      "id": "node:5122915934",
+      "nom": "Boulangerie traditionnelle du Capcir",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 42.5783335,
+      "longitude": 2.0732861,
+      "telephone": "",
+      "horaires": "Jul-Aug Mo-Su 06:45-20:00",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/5122915934"
+    },
+    {
       "id": "node:5535648319",
       "nom": "Boulangerie viennoiserie",
       "adresse": "",
@@ -129508,6 +129482,19 @@
       "horaires": "Mo, Th-Su, PH 07:00-19:30",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/4315845754"
+    },
+    {
+      "id": "node:5810345191",
+      "nom": "CYRIL AVERT",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 48.4349136,
+      "longitude": 1.4782246,
+      "telephone": "",
+      "horaires": "Mo-Sa 06:00-20:00; Su 06:00-13:15",
+      "site": "https://www.cyril-avert.fr/boulangerie-patisserie-cyril-avert",
+      "osm_url": "https://www.openstreetmap.org/node/5810345191"
     },
     {
       "id": "node:5754325722",
@@ -150962,7 +150949,7 @@
     {
       "id": "way:300900022",
       "nom": "Gourmandises et Traditions",
-      "adresse": "10, Place de l'Église",
+      "adresse": "",
       "code_postal": "",
       "commune": "",
       "latitude": 48.394913375,
@@ -174709,19 +174696,6 @@
       "horaires": "Mo-Tu,Th-Fr,Su 07:00-13:30,15:30-20:00; Sa 07:00-20:00; We off",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/8235062814"
-    },
-    {
-      "id": "node:1557214786",
-      "nom": "La Grange",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 45.5344565,
-      "longitude": 6.6352,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/1557214786"
     },
     {
       "id": "node:4265149878",
@@ -217232,6 +217206,19 @@
       "horaires": "Mo-Sa 07:00-20:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/2449388520"
+    },
+    {
+      "id": "node:14182394882",
+      "nom": "Le bon fournil",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 48.6305469,
+      "longitude": 2.414576,
+      "telephone": "",
+      "horaires": "Mo-Su 06:00-21:00",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14182394882"
     },
     {
       "id": "node:2978205596",
@@ -276800,6 +276787,19 @@
       "osm_url": "https://www.openstreetmap.org/node/12124196570"
     },
     {
+      "id": "node:5685997889",
+      "nom": "Sau'Clad",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 45.8483425,
+      "longitude": 5.6513375,
+      "telephone": "",
+      "horaires": "Tu-Sa 07:00-12:30,15:30-19:30; Su 07:00-12:30",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/5685997889"
+    },
+    {
       "id": "way:349217384",
       "nom": "Sauboa",
       "adresse": "",
@@ -284559,19 +284559,6 @@
       "horaires": "We-Mo 06:00-19:30",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/1190832112"
-    },
-    {
-      "id": "way:162480680",
-      "nom": "Zolpan",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 44.992568,
-      "longitude": -0.43024319999999994,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/way/162480680"
     },
     {
       "id": "node:10708966346",
@@ -333676,7 +333663,7 @@
     },
     {
       "id": "node:1934227957",
-      "nom": "Boulangerie Pâtisserie Chocolatier Renault",
+      "nom": "La maison Chauvière",
       "adresse": "17, Place du 9 Juin 1944, 53100, Mayenne",
       "code_postal": "53100",
       "commune": "Mayenne",
@@ -343293,19 +343280,6 @@
       "horaires": "Tu-Su 07:00-12:45; Tu-Su 15:15-19:05",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/5153655722"
-    },
-    {
-      "id": "node:5122915934",
-      "nom": "Boulangerie traditionnelle du Capcir",
-      "adresse": "Avenue de Balcère, 66210, Les Angles",
-      "code_postal": "66210",
-      "commune": "Les Angles",
-      "latitude": 42.5783335,
-      "longitude": 2.0732861,
-      "telephone": "",
-      "horaires": "Jul-Aug Mo-Su 06:45-20:00",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/5122915934"
     },
     {
       "id": "node:13729129001",
@@ -359517,6 +359491,19 @@
       "horaires": "Mo-Fr 07:00-19:00; PH closed",
       "site": "https://mercijerome.com/boulangerie-batignolles",
       "osm_url": "https://www.openstreetmap.org/node/8205268184"
+    },
+    {
+      "id": "node:4096942697",
+      "nom": "Paris Baguette",
+      "adresse": "7, Place du Maréchal Juin, 75017, Paris",
+      "code_postal": "75017",
+      "commune": "Paris",
+      "latitude": 48.8844044,
+      "longitude": 2.2968868,
+      "telephone": "",
+      "horaires": "Mo-Fr 07:00-20:00; Sa 08:00-19:00; Su 08:00-18:00",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/4096942697"
     },
     {
       "id": "node:12549043701",
