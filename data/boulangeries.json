@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T06:50:47.882101+00:00",
+  "generated_at": "2026-11-14T07:17:27.866619+00:00",
   "source": "OpenStreetMap / Geofabrik (extraits régionaux)",
-  "count": 29567,
+  "count": 29565,
   "items": [
     {
       "id": "node:7347567511",
@@ -4250,7 +4250,7 @@
       "latitude": 44.992551000000006,
       "longitude": -0.43015318,
       "telephone": "",
-      "horaires": "",
+      "horaires": "Mo-Sa 06:00-20:00; Su 06:00-13:30",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/way/1578283748"
     },
@@ -17348,7 +17348,7 @@
     {
       "id": "node:4570298225",
       "nom": "Aux Douceurs de Mathieu",
-      "adresse": "13 C, Rue de la Chaussée",
+      "adresse": "",
       "code_postal": "",
       "commune": "",
       "latitude": 49.2552965,
@@ -54474,19 +54474,6 @@
       "osm_url": "https://www.openstreetmap.org/node/2929018586"
     },
     {
-      "id": "node:4990819835",
-      "nom": "Boulangerie Patisserie",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.983241,
-      "longitude": 6.021508,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/4990819835"
-    },
-    {
       "id": "node:13922336194",
       "nom": "Boulangerie Patisserie",
       "adresse": "",
@@ -66741,7 +66728,7 @@
       "latitude": 49.1315518,
       "longitude": 2.5121226,
       "telephone": "+33 3 44 58 91 45",
-      "horaires": "Mo off; Tu-Sa 07:30-13:30,16:00-19:30; Su 07:30-13:30; 2026 Aug 03-31 off",
+      "horaires": "Mo off; Tu-Sa 07:30-13:30,16:00-19:30; Su 07:30-13:30",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/1448798714"
     },
@@ -68941,6 +68928,19 @@
       "horaires": "Mo-Fr 06:30-14:00,16:00-19:30; Su 06:30-14:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/14220088679"
+    },
+    {
+      "id": "node:460476222",
+      "nom": "Boulangerie d'Ingré",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 47.9195818,
+      "longitude": 1.8302288,
+      "telephone": "+33 238747049",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/460476222"
     },
     {
       "id": "node:3037670736",
@@ -87622,19 +87622,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/2875101902"
-    },
-    {
-      "id": "node:2885314077",
-      "nom": "Boulangerie sans nom",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 46.4412889,
-      "longitude": 1.3919763,
-      "telephone": "",
-      "horaires": "Tu-Sa 07:30-13:00,15:30-19:30; Su 08:00-13:00",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/2885314077"
     },
     {
       "id": "node:3002178206",
@@ -138481,7 +138468,7 @@
     },
     {
       "id": "node:12059143544",
-      "nom": "Delices du thaurion",
+      "nom": "Delices du Thaurion",
       "adresse": "",
       "code_postal": "",
       "commune": "",
@@ -141871,6 +141858,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/6542584314"
+    },
+    {
+      "id": "node:14374348237",
+      "nom": "Elyse",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 43.2540356,
+      "longitude": 5.3812678,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14374348237"
     },
     {
       "id": "node:4970608357",
@@ -158024,8 +158024,8 @@
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 49.0716935,
-      "longitude": 6.091309,
+      "latitude": 49.0717019,
+      "longitude": 6.0913457,
       "telephone": "+33 3 87 53 68 71",
       "horaires": "Mo-Sa 06:30-19:00",
       "site": "",
@@ -207666,19 +207666,6 @@
       "osm_url": "https://www.openstreetmap.org/way/46810916"
     },
     {
-      "id": "node:8718113674",
-      "nom": "Le Fournil du Luat",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.1340928,
-      "longitude": -0.4623747,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/8718113674"
-    },
-    {
       "id": "node:6124092785",
       "nom": "Le Fournil du Luy",
       "adresse": "",
@@ -222972,8 +222959,8 @@
       "adresse": "3",
       "code_postal": "",
       "commune": "",
-      "latitude": 43.2541731,
-      "longitude": 5.3839127,
+      "latitude": 43.2541795,
+      "longitude": 5.3839004,
       "telephone": "+33 4 91 55 08 21",
       "horaires": "",
       "site": "https://www.biocooplesbonnesgraines.fr/boulangerie-906.html",
@@ -231976,17 +231963,17 @@
       "osm_url": "https://www.openstreetmap.org/node/7899780869"
     },
     {
-      "id": "node:9216846211",
-      "nom": "Lulu La Boulange",
+      "id": "node:4990819841",
+      "nom": "Lulu la boulange",
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 49.0717197,
-      "longitude": 6.0913769,
-      "telephone": "+33 3 87 53 68 71",
+      "latitude": 48.9834417,
+      "longitude": 6.0207482,
+      "telephone": "",
       "horaires": "",
       "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/9216846211"
+      "osm_url": "https://www.openstreetmap.org/node/4990819841"
     },
     {
       "id": "node:10230986706",
@@ -235614,19 +235601,6 @@
       "horaires": "Mo off; Tu-Fr 06:30-13:30,15:00-20:00; Sa 06:30-20:00; Su 06:30-19:30",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/7662374451"
-    },
-    {
-      "id": "way:197223618",
-      "nom": "Maison Binet",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 47.664301809523806,
-      "longitude": -3.001635761904762,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/way/197223618"
     },
     {
       "id": "node:299705321",
@@ -260160,19 +260134,6 @@
       "osm_url": "https://www.openstreetmap.org/node/3671703035"
     },
     {
-      "id": "node:3213935566",
-      "nom": "O' Plaisir de Poilly",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 47.677825,
-      "longitude": 2.5940566,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/3213935566"
-    },
-    {
       "id": "way:543532979",
       "nom": "O' Repère Du Bon Pain",
       "adresse": "",
@@ -283555,7 +283516,7 @@
       "latitude": 47.3932086,
       "longitude": 0.6931745,
       "telephone": "",
-      "horaires": "Tu-Sa 07:00-20:00; Su 07:00-19:30",
+      "horaires": "07:00-19:30",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/3359424204"
     },
@@ -298502,8 +298463,8 @@
       "adresse": "2, Avenue Léo Lagrange, 13410, Lambesc",
       "code_postal": "13410",
       "commune": "Lambesc",
-      "latitude": 43.6486489,
-      "longitude": 5.2654981,
+      "latitude": 43.6487132,
+      "longitude": 5.2656757,
       "telephone": "+33 4 42 92 72 64",
       "horaires": "Mo-Sa 06:00-20:00",
       "site": "https://www.lemoulindessaveurs.com/",
@@ -307390,14 +307351,14 @@
     },
     {
       "id": "node:3966623617",
-      "nom": "Boulangerie Thouin",
+      "nom": "Rémi",
       "adresse": "47, Rue du Général de Gaulle, 27400, Louviers",
       "code_postal": "27400",
       "commune": "Louviers",
       "latitude": 49.2106437,
       "longitude": 1.1665784,
-      "telephone": "+33 2 32 40 02 11",
-      "horaires": "Mo off; Tu-Fr 07:00-19:30; Sa 07:00-19:00; Su 07:00-13:30",
+      "telephone": "",
+      "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/3966623617"
     },
@@ -327527,14 +327488,14 @@
     },
     {
       "id": "node:4583133459",
-      "nom": "Les Gourmandises Vitaliennes",
+      "nom": "Les Gourmandises de Saint Viaud",
       "adresse": "23, Route de Saint-Père, 44320, Saint-Viaud",
       "code_postal": "44320",
       "commune": "Saint-Viaud",
       "latitude": 47.2546526,
       "longitude": -2.0167506,
       "telephone": "",
-      "horaires": "",
+      "horaires": "Tu 06:30-19:00; We 06:30-19:00; Th 06:30-19:00; Fr 06:30-19:00; Sa 06:30-19:00; Su 06:30-19:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/4583133459"
     },
@@ -328785,19 +328746,6 @@
       "horaires": "Mo-Sa 06:30-13:00,15:00-19:00; We off; Su 06:30-13:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/way/295670657"
-    },
-    {
-      "id": "node:460476222",
-      "nom": "Boulangerie d'Ingré",
-      "adresse": "22, Avenue de la Grenaudière, 45140, Ingré",
-      "code_postal": "45140",
-      "commune": "Ingré",
-      "latitude": 47.9195926,
-      "longitude": 1.8302248,
-      "telephone": "+33 238747049",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/460476222"
     },
     {
       "id": "node:12222516104",
@@ -333753,6 +333701,19 @@
       "osm_url": "https://www.openstreetmap.org/node/7401928848"
     },
     {
+      "id": "node:8718113674",
+      "nom": "Le Fournil du Luat",
+      "adresse": "4, Rue du Stade, 53150, Saint-Christophe-du-Luat",
+      "code_postal": "53150",
+      "commune": "Saint-Christophe-du-Luat",
+      "latitude": 48.1340928,
+      "longitude": -0.4623747,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/8718113674"
+    },
+    {
       "id": "node:14029334604",
       "nom": "Au vieux four à bois",
       "adresse": "28, Rue Monseigneur Grandin, 53160, Vimartin-sur-Orthe",
@@ -335649,6 +335610,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/5899505032"
+    },
+    {
+      "id": "way:197223618",
+      "nom": "Le Fournil de l'Océan",
+      "adresse": "27, Avenue de l'Océan, 56400, Auray",
+      "code_postal": "56400",
+      "commune": "Auray",
+      "latitude": 47.664301809523806,
+      "longitude": -3.001635761904762,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/way/197223618"
     },
     {
       "id": "node:8846932672",
