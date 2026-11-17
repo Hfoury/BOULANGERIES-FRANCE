@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T07:43:43.123585+00:00",
+  "generated_at": "2026-11-17T06:48:32.591403+00:00",
   "source": "OpenStreetMap / Geofabrik (extraits régionaux)",
-  "count": 29568,
+  "count": 29570,
   "items": [
     {
       "id": "node:7347567511",
@@ -6140,19 +6140,6 @@
       "osm_url": "https://www.openstreetmap.org/node/3077303955"
     },
     {
-      "id": "way:113979113",
-      "nom": "Au Coeur de la Mie",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.296871100000004,
-      "longitude": -0.93433815,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/way/113979113"
-    },
-    {
       "id": "node:1004533238",
       "nom": "Au Coeur du Blé",
       "adresse": "4, Rue de Rennes",
@@ -11689,19 +11676,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/way/205376061"
-    },
-    {
-      "id": "node:3326668634",
-      "nom": "Au Petit Nice",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 43.5336331,
-      "longitude": 5.4625972,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/3326668634"
     },
     {
       "id": "node:7900814145",
@@ -20648,19 +20622,6 @@
       "osm_url": "https://www.openstreetmap.org/node/9096854155"
     },
     {
-      "id": "way:121585791",
-      "nom": "Aux Petits Plaisirs",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 46.77934245,
-      "longitude": 4.8618781,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/way/121585791"
-    },
-    {
       "id": "node:461209713",
       "nom": "Aux Petits Plaisirs",
       "adresse": "15, Rue Léo Lagrange",
@@ -23877,8 +23838,8 @@
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 45.7227167,
-      "longitude": 4.8120824,
+      "latitude": 45.7227173,
+      "longitude": 4.8120998,
       "telephone": "+33 4 78 45 36 84",
       "horaires": "Mo-Su 06:30-19:30",
       "site": "",
@@ -25144,19 +25105,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/way/194762023"
-    },
-    {
-      "id": "node:1068687569",
-      "nom": "Banette",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.4103211,
-      "longitude": -0.8124647,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/1068687569"
     },
     {
       "id": "node:3880689473",
@@ -43164,6 +43112,19 @@
       "osm_url": "https://www.openstreetmap.org/node/4381304150"
     },
     {
+      "id": "node:14379958968",
+      "nom": "Boulangerie Feuillette",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 49.6182107,
+      "longitude": 0.7394595,
+      "telephone": "+33 2 35 16 74 95",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14379958968"
+    },
+    {
       "id": "node:13264478293",
       "nom": "Boulangerie Feuillette",
       "adresse": "",
@@ -51068,19 +51029,6 @@
       "osm_url": "https://www.openstreetmap.org/node/12794483601"
     },
     {
-      "id": "way:1228793101",
-      "nom": "Boulangerie Marie Blachère",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 50.111160028571426,
-      "longitude": 1.8381378142857143,
-      "telephone": "+33 3 22 19 09 12",
-      "horaires": "Mo-Sa 06:30-19:30; Su 07:00-12:30",
-      "site": "https://boulangeries.marieblachere.com/fr/france-FR/5043/marie-blachere-abbeville/details",
-      "osm_url": "https://www.openstreetmap.org/way/1228793101"
-    },
-    {
       "id": "node:3089094946",
       "nom": "Boulangerie Marie Blanchère",
       "adresse": "",
@@ -52639,6 +52587,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/4527983089"
+    },
+    {
+      "id": "node:14384553877",
+      "nom": "Boulangerie Nol",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 46.2156117,
+      "longitude": 5.2431812,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14384553877"
     },
     {
       "id": "node:7256195584",
@@ -54420,6 +54381,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/4372606901"
+    },
+    {
+      "id": "node:4561070881",
+      "nom": "Boulangerie Patisserie",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 46.2367321,
+      "longitude": 1.4845454,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/4561070881"
     },
     {
       "id": "way:255423326",
@@ -59765,19 +59739,6 @@
       "osm_url": "https://www.openstreetmap.org/node/8828046318"
     },
     {
-      "id": "node:14072432168",
-      "nom": "Boulangerie Pâtisserie",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.4025926,
-      "longitude": -0.6307481,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/14072432168"
-    },
-    {
       "id": "node:1988447200",
       "nom": "Boulangerie Pâtisserie",
       "adresse": "5, Rue Carnot",
@@ -64458,6 +64419,19 @@
       "osm_url": "https://www.openstreetmap.org/node/1315196684"
     },
     {
+      "id": "node:10736650858",
+      "nom": "Boulangerie Pâtisserie du Soleil",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 45.449359,
+      "longitude": 4.4029293,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/10736650858"
+    },
+    {
       "id": "node:4413054006",
       "nom": "Boulangerie Pâtisserie du Théâtre - Le Pain Boulanger",
       "adresse": "",
@@ -67173,19 +67147,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/455431479"
-    },
-    {
-      "id": "node:296549306",
-      "nom": "Boulangerie Tharonnaise",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 47.1651306,
-      "longitude": -2.1645027,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/296549306"
     },
     {
       "id": "node:11970814393",
@@ -82554,6 +82515,19 @@
       "osm_url": "https://www.openstreetmap.org/node/14026875601"
     },
     {
+      "id": "node:14074446101",
+      "nom": "Boulangerie sans nom",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 48.4937944,
+      "longitude": -0.6239234,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14074446101"
+    },
+    {
       "id": "node:14087633806",
       "nom": "Boulangerie sans nom",
       "adresse": "",
@@ -87059,8 +87033,8 @@
       "commune": "",
       "latitude": 47.7224752,
       "longitude": 1.9415446,
-      "telephone": "",
-      "horaires": "2023 Aug 07-2023 Aug 29 closed",
+      "telephone": "+33 2 38 76 50 26",
+      "horaires": "Tu-Sa 06:00-19:30; Su 06:00-13:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/1365418628"
     },
@@ -134224,7 +134198,7 @@
       "latitude": 45.5856593,
       "longitude": 5.2702712,
       "telephone": "",
-      "horaires": "",
+      "horaires": "Mo-Tu, Th-Sa 05:30-19:30; Su 05:30-19:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/6196350686"
     },
@@ -139193,19 +139167,6 @@
       "horaires": "24/7",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/14020228072"
-    },
-    {
-      "id": "node:11104517706",
-      "nom": "Distributeur de baguettes",
-      "adresse": "10, Rue de Kéraval",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.6869872,
-      "longitude": -4.0822364,
-      "telephone": "",
-      "horaires": "24/7",
-      "site": "https://mabaguette.com/",
-      "osm_url": "https://www.openstreetmap.org/node/11104517706"
     },
     {
       "id": "node:4475206189",
@@ -144952,19 +144913,6 @@
       "horaires": "Tu-Sa 07:00-13:00, 15:30-19:30; Su 07:00-12:30",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/6433632555"
-    },
-    {
-      "id": "node:1698187411",
-      "nom": "Festival des pains",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.4105221,
-      "longitude": -0.8143461,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/1698187411"
     },
     {
       "id": "node:4280119991",
@@ -155744,19 +155692,6 @@
       "osm_url": "https://www.openstreetmap.org/node/2062141726"
     },
     {
-      "id": "node:2258874077",
-      "nom": "Køok",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 47.2161595,
-      "longitude": -1.5551042,
-      "telephone": "",
-      "horaires": "off \"En travaux\"",
-      "site": "https://kookbakery.com",
-      "osm_url": "https://www.openstreetmap.org/node/2258874077"
-    },
-    {
       "id": "node:2090255507",
       "nom": "L & B",
       "adresse": "",
@@ -162179,6 +162114,19 @@
       "osm_url": "https://www.openstreetmap.org/node/13355813942"
     },
     {
+      "id": "node:3326668634",
+      "nom": "L'enfariné",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 43.5336331,
+      "longitude": 5.4625972,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/3326668634"
+    },
+    {
       "id": "node:12534254412",
       "nom": "L'engrain",
       "adresse": "",
@@ -167621,7 +167569,7 @@
       "latitude": 44.9199742,
       "longitude": 4.8601027,
       "telephone": "+33 4 26 42 60 90",
-      "horaires": "Mo-Sa 06:30-20:00; Su 06:30:12:30",
+      "horaires": "Mo-Sa 06:30-20:00; Su 06:30-12:30",
       "site": "https://www.laboulangeriedumarche.fr/nos-boulangeries/soyons/",
       "osm_url": "https://www.openstreetmap.org/node/14208340862"
     },
@@ -184047,13 +183995,13 @@
     {
       "id": "node:1250893403",
       "nom": "La Panetteria",
-      "adresse": "",
+      "adresse": "7, Rue Bonneterie",
       "code_postal": "",
       "commune": "",
       "latitude": 43.2969685,
       "longitude": 5.3715154,
-      "telephone": "",
-      "horaires": "",
+      "telephone": "04 91 93 27 82",
+      "horaires": "Mo-Su 06:00-21:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/1250893403"
     },
@@ -198987,8 +198935,8 @@
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 46.8290885,
-      "longitude": -1.272289,
+      "latitude": 46.8290691,
+      "longitude": -1.2724076,
       "telephone": "",
       "horaires": "Mo-Tu,Th-Sa 07:00-13:00,16:00-19:00; Su 07:00-12:30",
       "site": "",
@@ -205675,6 +205623,19 @@
       "horaires": "07:00-20:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/12818733344"
+    },
+    {
+      "id": "node:3152630074",
+      "nom": "Le Fournil de la Place",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 43.5977045,
+      "longitude": 1.4317172,
+      "telephone": "",
+      "horaires": "Mo-Fr 06:30-20:30; Sa,Su 07:00-20:30",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/3152630074"
     },
     {
       "id": "node:1034064319",
@@ -221095,6 +221056,19 @@
       "osm_url": "https://www.openstreetmap.org/node/9919300825"
     },
     {
+      "id": "node:14381068282",
+      "nom": "Le petit mitron",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 46.7793787,
+      "longitude": 4.8618955,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14381068282"
+    },
+    {
       "id": "node:1628662908",
       "nom": "Le petit mitron",
       "adresse": "",
@@ -226514,6 +226488,19 @@
       "horaires": "Tu-Sa 07:30-13:00,16:00-19:30",
       "site": "https://www.les-mains-libres.fr/",
       "osm_url": "https://www.openstreetmap.org/node/5171346281"
+    },
+    {
+      "id": "node:14356841103",
+      "nom": "Les Mains dans le Pétrin",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 50.1680644,
+      "longitude": 3.2298327,
+      "telephone": "",
+      "horaires": "closed",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14356841103"
     },
     {
       "id": "node:7612960274",
@@ -243096,8 +243083,8 @@
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 47.1872402,
-      "longitude": -1.6872965,
+      "latitude": 47.1872375,
+      "longitude": -1.6872536,
       "telephone": "+33240029697",
       "horaires": "Tu-Fr 06:30-14:00,15:00-19:00; Sa 06:30-14:00; Su 07:00-12:30",
       "site": "",
@@ -248534,7 +248521,7 @@
       "longitude": -0.4534873,
       "telephone": "",
       "horaires": "",
-      "site": "",
+      "site": "https://boulangeries.marieblachere.com/fr/france-FR/7170/marie-blachere-carpiquet/details",
       "osm_url": "https://www.openstreetmap.org/node/14337960449"
     },
     {
@@ -248699,8 +248686,8 @@
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 48.1880854,
-      "longitude": 3.2838662,
+      "latitude": 48.1881209,
+      "longitude": 3.2838693,
       "telephone": "+33 3 86 83 40 41",
       "horaires": "Mo-Sa 07:00-19:30",
       "site": "https://boulangeries.marieblachere.com/sens/",
@@ -252503,6 +252490,19 @@
       "osm_url": "https://www.openstreetmap.org/way/997984211"
     },
     {
+      "id": "way:1228793101",
+      "nom": "Marie Blachère",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 50.111160028571426,
+      "longitude": 1.8381378142857143,
+      "telephone": "+33 3 22 19 09 12",
+      "horaires": "Mo-Sa 06:30-19:30; Su 07:00-12:30",
+      "site": "https://boulangeries.marieblachere.com/fr/france-FR/5043/marie-blachere-abbeville/details",
+      "osm_url": "https://www.openstreetmap.org/way/1228793101"
+    },
+    {
       "id": "node:6295237895",
       "nom": "Marie Blachère",
       "adresse": "",
@@ -254531,6 +254531,19 @@
       "osm_url": "https://www.openstreetmap.org/node/3929497019"
     },
     {
+      "id": "node:14380129600",
+      "nom": "Mariette",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 48.4151497,
+      "longitude": -4.4351008,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14380129600"
+    },
+    {
       "id": "node:2957785613",
       "nom": "Mariette",
       "adresse": "",
@@ -255455,12 +255468,12 @@
     },
     {
       "id": "node:1775940805",
-      "nom": "Maïssa",
+      "nom": "Maïssa et fils",
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 48.1876458,
-      "longitude": 3.2843065,
+      "latitude": 48.1876576,
+      "longitude": 3.2843337,
       "telephone": "",
       "horaires": "",
       "site": "",
@@ -257822,7 +257835,7 @@
     {
       "id": "node:2211046571",
       "nom": "Moulin de Flor",
-      "adresse": "7, Rue de Rivoli",
+      "adresse": "",
       "code_postal": "",
       "commune": "",
       "latitude": 43.6956928,
@@ -260171,19 +260184,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/6653451526"
-    },
-    {
-      "id": "node:6828667885",
-      "nom": "O'Délices d'Ernée",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.2910341,
-      "longitude": -0.9248932,
-      "telephone": "",
-      "horaires": "Tu-Sa 06:00-19:30; Su 06:00-12:30",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/6828667885"
     },
     {
       "id": "node:2139131431",
@@ -273376,7 +273376,7 @@
       "latitude": 48.8546843,
       "longitude": 2.4933222,
       "telephone": "",
-      "horaires": "Mo-Sa 07:00-20:00",
+      "horaires": "Mo-Fr 07:00-20:00; Sa 08:00-14:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/12167942946"
     },
@@ -275290,6 +275290,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/5837737065"
+    },
+    {
+      "id": "node:14383282362",
+      "nom": "Roumegous",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 43.5857617,
+      "longitude": 1.5297179,
+      "telephone": "",
+      "horaires": "",
+      "site": "https://roumegous-patisserie.com/",
+      "osm_url": "https://www.openstreetmap.org/node/14383282362"
     },
     {
       "id": "node:3246560569",
@@ -292231,6 +292244,19 @@
       "osm_url": "https://www.openstreetmap.org/node/9621232976"
     },
     {
+      "id": "node:14382910201",
+      "nom": "Boulangerie de Meaulne",
+      "adresse": "9, Route de Paris, 03360",
+      "code_postal": "03360",
+      "commune": "",
+      "latitude": 46.5986682,
+      "longitude": 2.6135055,
+      "telephone": "",
+      "horaires": "Tu-Sa 06:30-13:00, 16:00-19:00; Su 06:30-13:00",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14382910201"
+    },
+    {
       "id": "way:147265383",
       "nom": "Boulangerie",
       "adresse": "21, Place du Faubourg, 03360, Ainay-le-Chateau",
@@ -303762,19 +303788,6 @@
       "osm_url": "https://www.openstreetmap.org/node/7978134336"
     },
     {
-      "id": "node:3265153825",
-      "nom": "au Boulevard",
-      "adresse": "3 bis, Boulevard Gambetta, 22000, saint brieuc",
-      "code_postal": "22000",
-      "commune": "saint brieuc",
-      "latitude": 48.5187571,
-      "longitude": -2.7578227,
-      "telephone": "+33 2 96 33 26 35",
-      "horaires": "07:00-20:00; We off",
-      "site": "https://www.auboulevard.fr",
-      "osm_url": "https://www.openstreetmap.org/node/3265153825"
-    },
-    {
       "id": "node:986941818",
       "nom": "Boulanger Pâtissier \"Le fournil d'armorique\"",
       "adresse": "9, Place de la République, 22110, Rostrenen",
@@ -304774,19 +304787,6 @@
       "horaires": "Tu-Su 08:30-12:15",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/9403348052"
-    },
-    {
-      "id": "node:4561070881",
-      "nom": "Boulangerie Patisserie",
-      "adresse": "5, Place Montaudon Bousseresse, 23300, La Souterraine",
-      "code_postal": "23300",
-      "commune": "La Souterraine",
-      "latitude": 46.2367321,
-      "longitude": 1.4845454,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/4561070881"
     },
     {
       "id": "node:13998297451",
@@ -311651,19 +311651,6 @@
       "horaires": "Mo-Su 06:30-20:30",
       "site": "https://www.lapanetiere.fr/",
       "osm_url": "https://www.openstreetmap.org/node/1757187293"
-    },
-    {
-      "id": "node:3152630074",
-      "nom": "Le Fournil de la Place",
-      "adresse": "3, Place Intérieure Saint-Cyprien, 31300, Toulouse",
-      "code_postal": "31300",
-      "commune": "Toulouse",
-      "latitude": 43.5977074,
-      "longitude": 1.4317162,
-      "telephone": "",
-      "horaires": "Mo-Fr 06:30-20:30; Sa,Su 07:00-20:30",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/3152630074"
     },
     {
       "id": "node:14173501901",
@@ -319759,7 +319746,7 @@
       "commune": "Renac",
       "latitude": 47.7200336,
       "longitude": -1.9751318,
-      "telephone": "",
+      "telephone": "+33 2 99 72 00 11",
       "horaires": "Mo-Sa 07:30-13:00,15:00-19:30; We off; Su 07:30-13:00",
       "site": "https://www.boulangerie-patisserie-guilbaud.fr/",
       "osm_url": "https://www.openstreetmap.org/node/7158809876"
@@ -320946,19 +320933,6 @@
       "horaires": "Mo-Sa 06:00-19:45",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/4471719787"
-    },
-    {
-      "id": "node:1142119321",
-      "nom": "Au Chardon Bleu",
-      "adresse": "27, Avenue Albert 1er de Belgique, 38000, Grenoble",
-      "code_postal": "38000",
-      "commune": "Grenoble",
-      "latitude": 45.1817777,
-      "longitude": 5.7298937,
-      "telephone": "+33 4 76 87 36 49",
-      "horaires": "Mo-Sa 06:45-19:45",
-      "site": "http://www.auchardonbleu.com/boutiques/albert-1er-de-belgique/",
-      "osm_url": "https://www.openstreetmap.org/node/1142119321"
     },
     {
       "id": "way:77479048",
@@ -323647,7 +323621,7 @@
       "latitude": 43.708069128571424,
       "longitude": -1.0535519285714285,
       "telephone": "+33 5 58 42 41 14",
-      "horaires": "Tu-Th 08:00-14:00; Fr 08:00-18:00; Sa 07:00-18:00; Su 08:30-14:00",
+      "horaires": "Tu-Th 08:00-14:00; Fr 08:00-18:30; Sa 07:00-18:30; Su 08:30-14:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/way/1010046973"
     },
@@ -324186,7 +324160,7 @@
     },
     {
       "id": "node:4937163725",
-      "nom": "Panehestia",
+      "nom": "PaneHestia",
       "adresse": "28, Boulevard Jacques Duclos, 40220, Tarnos",
       "code_postal": "40220",
       "commune": "Tarnos",
@@ -328148,6 +328122,19 @@
       "horaires": "Tu-Sa 06:00-19:30; Su 06:00-18:30",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/4465866406"
+    },
+    {
+      "id": "node:14378960983",
+      "nom": "Gousse de mer",
+      "adresse": "45, Avenue de la Convention, 44730, Tharon Plage",
+      "code_postal": "44730",
+      "commune": "Tharon Plage",
+      "latitude": 47.1651003,
+      "longitude": -2.1643304,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14378960983"
     },
     {
       "id": "node:12085987222",
@@ -333623,6 +333610,32 @@
       "osm_url": "https://www.openstreetmap.org/node/1794233054"
     },
     {
+      "id": "node:1068687569",
+      "nom": "Banette",
+      "adresse": "2, Rue du Maine, 53120, Gorron",
+      "code_postal": "53120",
+      "commune": "Gorron",
+      "latitude": 48.4103366,
+      "longitude": -0.8124484,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/1068687569"
+    },
+    {
+      "id": "node:1698187411",
+      "nom": "Boulangerie Joly Patisserie",
+      "adresse": "3, Rue de Bretagne, 53120, Gorron",
+      "code_postal": "53120",
+      "commune": "Gorron",
+      "latitude": 48.4105292,
+      "longitude": -0.8144212,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/1698187411"
+    },
+    {
       "id": "node:7400793196",
       "nom": "Boulangerie Charlot",
       "adresse": "1, Rue de la Gare, 53150, Montsûrs",
@@ -333680,8 +333693,8 @@
       "adresse": "2, Rue de Beausoleil, 53210, Argentré",
       "code_postal": "53210",
       "commune": "Argentré",
-      "latitude": 48.0843469,
-      "longitude": -0.6406718,
+      "latitude": 48.0843505,
+      "longitude": -0.6406061,
       "telephone": "",
       "horaires": "",
       "site": "",
@@ -333751,6 +333764,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/8576313743"
+    },
+    {
+      "id": "node:14072432168",
+      "nom": "Boulangerie Pâtisserie",
+      "adresse": "13, Rue de Bouchevreau, 53300, Ambrières-les-Vallées",
+      "code_postal": "53300",
+      "commune": "Ambrières-les-Vallées",
+      "latitude": 48.4025892,
+      "longitude": -0.6307583,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14072432168"
     },
     {
       "id": "node:12872947137",
@@ -333855,6 +333881,19 @@
       "horaires": "Tu-Su 06:30+",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/7401928864"
+    },
+    {
+      "id": "node:6828667885",
+      "nom": "O'Délices d'Ernée",
+      "adresse": "Route de Laval, 53500, Ernée",
+      "code_postal": "53500",
+      "commune": "Ernée",
+      "latitude": 48.2910341,
+      "longitude": -0.9248932,
+      "telephone": "",
+      "horaires": "Tu-Sa 06:00-19:30; Su 06:00-12:30",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/6828667885"
     },
     {
       "id": "node:2000501284",
@@ -339863,19 +339902,6 @@
       "osm_url": "https://www.openstreetmap.org/node/11499649971"
     },
     {
-      "id": "node:14074446101",
-      "nom": "Boulangerie-Patisserie",
-      "adresse": "5, Place de l'Église, 61330",
-      "code_postal": "61330",
-      "commune": "",
-      "latitude": 48.4937944,
-      "longitude": -0.6239234,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/14074446101"
-    },
-    {
       "id": "node:1964444747",
       "nom": "L'authentic Joe",
       "adresse": "8, Boulevard Jacquard, 62100",
@@ -344964,8 +344990,8 @@
       "adresse": "8, Rue de la Fontaine, 67130, Lutzelhouse",
       "code_postal": "67130",
       "commune": "Lutzelhouse",
-      "latitude": 48.5200553,
-      "longitude": 7.2872983,
+      "latitude": 48.5200282,
+      "longitude": 7.2871625,
       "telephone": "+33 9 51 03 30 28",
       "horaires": "Tu-Fr 06:30-12:30; Sa 06:30-12:30; Su 07:00-12:30",
       "site": "",
