@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T06:48:32.591403+00:00",
+  "generated_at": "2026-11-18T06:30:05.421363+00:00",
   "source": "OpenStreetMap / Geofabrik (extraits régionaux)",
-  "count": 29570,
+  "count": 29576,
   "items": [
     {
       "id": "node:7347567511",
@@ -13524,6 +13524,19 @@
       "osm_url": "https://www.openstreetmap.org/node/5979703385"
     },
     {
+      "id": "node:14385121995",
+      "nom": "Au coin du feu",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 44.6531095,
+      "longitude": 1.912696,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14385121995"
+    },
+    {
       "id": "node:12991835385",
       "nom": "Au coin du four",
       "adresse": "",
@@ -14259,7 +14272,7 @@
       "commune": "",
       "latitude": 42.809924,
       "longitude": 2.5961101,
-      "telephone": "",
+      "telephone": "+33 9 73 58 90 95",
       "horaires": "Mo,Tu,Th,Fr 06:30-13:00,16:00-19:00; We,Sa 06:30-13:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/11118828000"
@@ -34959,6 +34972,19 @@
       "horaires": "Mo-Sa 06:30-20:00; Su 06:30-13:00",
       "site": "https://www.boulangerie-ange.fr/stores/boulangerie-ange-istres-le-tube/",
       "osm_url": "https://www.openstreetmap.org/node/13473267117"
+    },
+    {
+      "id": "node:14386790684",
+      "nom": "Boulangerie Ange",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 43.9395949,
+      "longitude": 4.8335814,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14386790684"
     },
     {
       "id": "node:1761412174",
@@ -85180,19 +85206,6 @@
       "osm_url": "https://www.openstreetmap.org/node/2830302201"
     },
     {
-      "id": "node:2901716347",
-      "nom": "Boulangerie sans nom",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 48.4080879,
-      "longitude": -4.5144379,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/2901716347"
-    },
-    {
       "id": "node:2992579349",
       "nom": "Boulangerie sans nom",
       "adresse": "",
@@ -107200,19 +107213,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/2457230782"
-    },
-    {
-      "id": "node:2525414142",
-      "nom": "Boulangerie sans nom",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 43.611035,
-      "longitude": 1.4391981,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/2525414142"
     },
     {
       "id": "node:2548426341",
@@ -172163,6 +172163,19 @@
       "osm_url": "https://www.openstreetmap.org/node/4214939961"
     },
     {
+      "id": "node:9470865524",
+      "nom": "La Fournée Bio",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 42.6697961,
+      "longitude": 2.6204471,
+      "telephone": "",
+      "horaires": "Tu-Sa 06:00-13:00,16:30-19:00; Su 06:00-13:00",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/9470865524"
+    },
+    {
       "id": "node:1395282219",
       "nom": "La Fournée Bressane",
       "adresse": "",
@@ -212946,7 +212959,7 @@
     {
       "id": "node:3715624122",
       "nom": "Le Pain du Jour",
-      "adresse": "109, Avenue Pasteur",
+      "adresse": "",
       "code_postal": "",
       "commune": "",
       "latitude": 42.6724588,
@@ -233419,6 +233432,19 @@
       "osm_url": "https://www.openstreetmap.org/node/4666015489"
     },
     {
+      "id": "node:2525414142",
+      "nom": "Ma Baguette",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 43.611035,
+      "longitude": 1.4391981,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/2525414142"
+    },
+    {
       "id": "node:8836125966",
       "nom": "Ma Boulange",
       "adresse": "",
@@ -253177,6 +253203,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/14293304386"
+    },
+    {
+      "id": "node:14386572262",
+      "nom": "Marie Blachère",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 43.853005,
+      "longitude": 5.0271163,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14386572262"
     },
     {
       "id": "way:92446044",
@@ -284397,8 +284436,8 @@
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 48.8766765,
-      "longitude": 2.2505929,
+      "latitude": 48.876673,
+      "longitude": 2.2505787,
       "telephone": "",
       "horaires": "",
       "site": "",
@@ -326200,26 +326239,26 @@
       "osm_url": "https://www.openstreetmap.org/node/6354126991"
     },
     {
-      "id": "node:4358846305",
+      "id": "way:319589545",
       "nom": "Boulangerie Pâtisserie L et P Fougerouse",
       "adresse": "2, Avenue de la Gare, 42550, Usson-en-Forez",
       "code_postal": "42550",
       "commune": "Usson-en-Forez",
-      "latitude": 45.3895917,
-      "longitude": 3.9425514,
+      "latitude": 45.38961285714286,
+      "longitude": 3.9424862857142857,
       "telephone": "+33 4 77 50 60 66",
       "horaires": "Tu-Sa 06:00-19:00; Su 06:00-12:30",
       "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/4358846305"
+      "osm_url": "https://www.openstreetmap.org/way/319589545"
     },
     {
       "id": "node:4096802298",
-      "nom": "Boulangerie sans nom",
+      "nom": "L'Éveil des Délices",
       "adresse": "25, Route Nationale, 42550, Usson-en-Forez",
       "code_postal": "42550",
       "commune": "Usson-en-Forez",
-      "latitude": 45.3909804,
-      "longitude": 3.9403371,
+      "latitude": 45.390859,
+      "longitude": 3.9403639,
       "telephone": "",
       "horaires": "",
       "site": "",
@@ -330823,7 +330862,7 @@
       "latitude": 47.4042546,
       "longitude": -0.9220918,
       "telephone": "",
-      "horaires": "2022 Jan 03: closed",
+      "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/6983125933"
     },
@@ -332817,6 +332856,19 @@
       "osm_url": "https://www.openstreetmap.org/node/3999875702"
     },
     {
+      "id": "node:14386793418",
+      "nom": "Au fournil de l'Ecluse",
+      "adresse": "Route de l'écluse, 51160, Aÿ-Champagne",
+      "code_postal": "51160",
+      "commune": "Aÿ-Champagne",
+      "latitude": 49.0526124,
+      "longitude": 3.9865156,
+      "telephone": "0326543163",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14386793418"
+    },
+    {
       "id": "node:5774895586",
       "nom": "Boulangerie Patrick Baillet",
       "adresse": "6, Place Henry Martin, 51160, Aÿ-Champagne",
@@ -333116,17 +333168,43 @@
       "osm_url": "https://www.openstreetmap.org/way/156678389"
     },
     {
-      "id": "node:3121118648",
-      "nom": "Geschwindenhammer Patrick",
-      "adresse": "42, Rue du Général de Gaulle, 51530",
+      "id": "node:14386793419",
+      "nom": "Au fournil de Magenta",
+      "adresse": "14, Avenue Alfred Anatole Thévenet, 51530, Magenta",
       "code_postal": "51530",
-      "commune": "",
+      "commune": "Magenta",
+      "latitude": 49.0481504,
+      "longitude": 3.9651427,
+      "telephone": "0326554887",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14386793419"
+    },
+    {
+      "id": "node:3121118648",
+      "nom": "Au fournil de Pierry",
+      "adresse": "42, Rue du Général de Gaulle, 51530, Pierry",
+      "code_postal": "51530",
+      "commune": "Pierry",
       "latitude": 49.0201795,
       "longitude": 3.9392047,
       "telephone": "",
       "horaires": "Mo-Fr 06:00-19:30; Sa 06:00-13:00; Su off",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/3121118648"
+    },
+    {
+      "id": "node:14386869698",
+      "nom": "Marie Blachère",
+      "adresse": "51530, Pierry",
+      "code_postal": "51530",
+      "commune": "Pierry",
+      "latitude": 49.0246598,
+      "longitude": 3.9493201,
+      "telephone": "",
+      "horaires": "",
+      "site": "https://boulangeries.marieblachere.com/fr/france-FR/7207/marie-blachere-pierry/details?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
+      "osm_url": "https://www.openstreetmap.org/node/14386869698"
     },
     {
       "id": "node:3107473871",
@@ -343202,19 +343280,6 @@
       "horaires": "We-Mo 06:00-13:00, PH 07:00-12:00, Mo,We-Fr 17:30-19:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/8947004016"
-    },
-    {
-      "id": "node:9470865524",
-      "nom": "La Fournée Bio",
-      "adresse": "70, Avenue Pasteur, 66130, Ille-sur-Têt",
-      "code_postal": "66130",
-      "commune": "Ille-sur-Têt",
-      "latitude": 42.6697961,
-      "longitude": 2.6204471,
-      "telephone": "",
-      "horaires": "Tu-Sa 06:00-13:00,16:30-19:00; Su 06:00-13:00",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/9470865524"
     },
     {
       "id": "node:5034694951",
@@ -359517,6 +359582,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/1862264927"
+    },
+    {
+      "id": "node:14386147836",
+      "nom": "Maison Perotti",
+      "adresse": "11, Rue Gustave Flaubert, 75017, Paris",
+      "code_postal": "75017",
+      "commune": "Paris",
+      "latitude": 48.8812687,
+      "longitude": 2.2987536,
+      "telephone": "+33 147637568",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14386147836"
     },
     {
       "id": "node:8205268184",
