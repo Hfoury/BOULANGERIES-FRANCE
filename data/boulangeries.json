@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T06:30:05.421363+00:00",
+  "generated_at": "2026-11-19T06:33:16.923340+00:00",
   "source": "OpenStreetMap / Geofabrik (extraits régionaux)",
-  "count": 29576,
+  "count": 29577,
   "items": [
     {
       "id": "node:7347567511",
@@ -27208,7 +27208,7 @@
       "latitude": 45.7943649,
       "longitude": 4.8504721,
       "telephone": "",
-      "horaires": "Mo-Sa 07:00-19:00; Su 07:00-13:30",
+      "horaires": "Mo-Fr 06:30-19:30; Su 07:00-13:30; Sa 07:00-17:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/636080335"
     },
@@ -52714,7 +52714,7 @@
       "latitude": 45.744383,
       "longitude": 4.8225282,
       "telephone": "",
-      "horaires": "",
+      "horaires": "Mo-Fr 07:00-14:30; Sa 08:00-13:00; Su 08:00-13:30",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/5183426526"
     },
@@ -123785,7 +123785,7 @@
       "latitude": 45.5337544,
       "longitude": 4.8745669,
       "telephone": "",
-      "horaires": "Tu-Su 06:00-20:00, Mo off",
+      "horaires": "Tu-Su 06:00-20:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/11900397888"
     },
@@ -217962,6 +217962,19 @@
       "osm_url": "https://www.openstreetmap.org/node/13314516231"
     },
     {
+      "id": "node:14393352891",
+      "nom": "Le fournil d'Hélène",
+      "adresse": "15, Rue du Général Leclerc",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 48.0206593,
+      "longitude": -0.1161106,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14393352891"
+    },
+    {
       "id": "node:10132432737",
       "nom": "Le fournil d'eloïse",
       "adresse": "",
@@ -265342,7 +265355,7 @@
       "latitude": 45.7450265,
       "longitude": 4.8225242,
       "telephone": "+33 4 72 41 35 75",
-      "horaires": "",
+      "horaires": "Tu-Fr 08:00-13:30,14:30-19:00; Sa 08:00-19:00; Su 08:00-13:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/6764190407"
     },
@@ -279694,7 +279707,7 @@
       "latitude": 46.3040568,
       "longitude": 5.9423108,
       "telephone": "",
-      "horaires": "Su,Mo 07:00-13:00; Tu,Th-Sa 07:00-10:00,15:30-19:00, 2021 Oct 11-24 off",
+      "horaires": "Su,Mo 07:00-13:00; Tu,Th-Sa 07:00-10:00,15:30-19:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/4394725709"
     },
