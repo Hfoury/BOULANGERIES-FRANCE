@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T07:02:13.990884+00:00",
+  "generated_at": "2026-11-25T06:36:57.694455+00:00",
   "source": "OpenStreetMap / Geofabrik (extraits régionaux)",
-  "count": 29583,
+  "count": 29582,
   "items": [
     {
       "id": "node:7347567511",
@@ -14731,6 +14731,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/way/109929717"
+    },
+    {
+      "id": "node:1634476290",
+      "nom": "Au levain d'Lingo",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 48.563844,
+      "longitude": 7.6940799,
+      "telephone": "+33 3 88 78 27 04",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/1634476290"
     },
     {
       "id": "node:14074733325",
@@ -32571,7 +32584,7 @@
     {
       "id": "node:9380199321",
       "nom": "Boulangerie - patisserie du sud",
-      "adresse": "6, Rue d'Italie",
+      "adresse": "",
       "code_postal": "",
       "commune": "",
       "latitude": 43.7027159,
@@ -35011,6 +35024,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/14386790684"
+    },
+    {
+      "id": "node:14412117140",
+      "nom": "Boulangerie Ange",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 44.1231921,
+      "longitude": 4.8282108,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14412117140"
     },
     {
       "id": "node:1761412174",
@@ -69517,7 +69543,7 @@
     {
       "id": "way:534279527",
       "nom": "Boulangerie de Quincy",
-      "adresse": "Route de Reuilly",
+      "adresse": "",
       "code_postal": "",
       "commune": "",
       "latitude": 47.1317955,
@@ -126398,7 +126424,7 @@
       "latitude": 48.8382098,
       "longitude": 2.4896226,
       "telephone": "",
-      "horaires": "",
+      "horaires": "Fr-We 07:00-20:00; Th 07:00-14:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/10589717990"
     },
@@ -163523,8 +163549,8 @@
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 49.1144378,
-      "longitude": -1.0989319,
+      "latitude": 49.1144395,
+      "longitude": -1.0989556,
       "telephone": "",
       "horaires": "We-Su 07:00-19:30",
       "site": "",
@@ -170148,19 +170174,6 @@
       "osm_url": "https://www.openstreetmap.org/node/3761274095"
     },
     {
-      "id": "node:9558997956",
-      "nom": "La Croust'ille (CLOSED)",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 42.670587,
-      "longitude": 2.6207364,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/9558997956"
-    },
-    {
       "id": "node:7761507954",
       "nom": "La Croustillane",
       "adresse": "",
@@ -173829,11 +173842,11 @@
     {
       "id": "node:9380199322",
       "nom": "La Goulette",
-      "adresse": "25, Rue d'Angleterre",
+      "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 43.7034872,
-      "longitude": 7.2644462,
+      "latitude": 43.703492,
+      "longitude": 7.2644616,
       "telephone": "",
       "horaires": "",
       "site": "",
@@ -180182,6 +180195,19 @@
       "horaires": "Mo-Su 07:00-19:45",
       "site": "https://www.lamiecaline.com/boutiques/rodez/",
       "osm_url": "https://www.openstreetmap.org/node/2023244382"
+    },
+    {
+      "id": "node:9403348052",
+      "nom": "La Mie De Bord",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 46.2603046,
+      "longitude": 2.2986128,
+      "telephone": "+33 5 55 65 70 45",
+      "horaires": "Tu-Su 08:30-12:15",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/9403348052"
     },
     {
       "id": "node:7756325462",
@@ -192196,19 +192222,6 @@
       "osm_url": "https://www.openstreetmap.org/node/1833843399"
     },
     {
-      "id": "way:229801626",
-      "nom": "La mie de Bord",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 46.26031839090909,
-      "longitude": 2.2986351363636364,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/way/229801626"
-    },
-    {
       "id": "node:8085974725",
       "nom": "La mie de Louise",
       "adresse": "",
@@ -202856,6 +202869,19 @@
       "osm_url": "https://www.openstreetmap.org/node/3898592596"
     },
     {
+      "id": "node:14413748913",
+      "nom": "Le Fournil de Miche",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 46.4861444,
+      "longitude": 2.0698035,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14413748913"
+    },
+    {
       "id": "node:7572400596",
       "nom": "Le Fournil de Mirabeau",
       "adresse": "4, Place Mirabeau",
@@ -207079,19 +207105,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/494097376"
-    },
-    {
-      "id": "node:3043586934",
-      "nom": "Le Fournil du 55",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 47.9044546,
-      "longitude": 1.9027285,
-      "telephone": "+33 238620603",
-      "horaires": "Tu-Fr 07:00-19:30; Sa 07:30-19:30; Su 07:30-13:00; Mo closed",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/3043586934"
     },
     {
       "id": "node:2503021321",
@@ -217642,8 +217655,8 @@
       "adresse": "",
       "code_postal": "",
       "commune": "",
-      "latitude": 47.18883336363637,
-      "longitude": -1.6831597272727272,
+      "latitude": 47.18883350909091,
+      "longitude": -1.6831599727272726,
       "telephone": "+33 2 40 78 84 42",
       "horaires": "Mo-Fr 07:00-12:45,15:30-19:00; Sa 07:00-14:00",
       "site": "",
@@ -242181,19 +242194,6 @@
       "osm_url": "https://www.openstreetmap.org/node/9855607998"
     },
     {
-      "id": "node:14408655423",
-      "nom": "Maison Louisette",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 49.1388066,
-      "longitude": -0.5278825,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/14408655423"
-    },
-    {
       "id": "node:3541478405",
       "nom": "Maison Louot",
       "adresse": "",
@@ -244441,6 +244441,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/10914055219"
+    },
+    {
+      "id": "node:3890206896",
+      "nom": "Maison Pujol",
+      "adresse": "",
+      "code_postal": "",
+      "commune": "",
+      "latitude": 43.5835297,
+      "longitude": 1.4503401,
+      "telephone": "",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/3890206896"
     },
     {
       "id": "node:10603743165",
@@ -253356,7 +253369,7 @@
       "latitude": 44.5661141,
       "longitude": 6.0896306,
       "telephone": "",
-      "horaires": "",
+      "horaires": "Mo-Sa 07:00-20:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/14254510489"
     },
@@ -286277,19 +286290,6 @@
       "osm_url": "https://www.openstreetmap.org/node/3240248149"
     },
     {
-      "id": "node:3890206896",
-      "nom": "À la Boulange d'Angéline",
-      "adresse": "",
-      "code_postal": "",
-      "commune": "",
-      "latitude": 43.5835297,
-      "longitude": 1.4503401,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/3890206896"
-    },
-    {
       "id": "node:9922565397",
       "nom": "À la Chocolatine",
       "adresse": "",
@@ -297003,15 +297003,15 @@
     },
     {
       "id": "node:13738193601",
-      "nom": "Pain Pan",
+      "nom": "Pain Pan !",
       "adresse": "6, Rue Saint-Saëns, 13001",
       "code_postal": "13001",
       "commune": "",
       "latitude": 43.2940564,
       "longitude": 5.3761332,
       "telephone": "",
-      "horaires": "",
-      "site": "",
+      "horaires": "Tu-Sa 07:00-19:00; Su 08:00-13:00",
+      "site": "https://painpan.fr/",
       "osm_url": "https://www.openstreetmap.org/node/13738193601"
     },
     {
@@ -299483,6 +299483,19 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/5033073702"
+    },
+    {
+      "id": "node:14408655423",
+      "nom": "Maison Louisette",
+      "adresse": "5, Rue de la Libération, 14210, Grainville-sur-Odon",
+      "code_postal": "14210",
+      "commune": "Grainville-sur-Odon",
+      "latitude": 49.1388066,
+      "longitude": -0.5278825,
+      "telephone": "+33 2 31 73 92 30",
+      "horaires": "",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/14408655423"
     },
     {
       "id": "node:3594189423",
@@ -305021,19 +305034,6 @@
       "horaires": "",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/way/623916858"
-    },
-    {
-      "id": "node:9403348052",
-      "nom": "La Mie De Bord",
-      "adresse": "4, 23230, Bord-Saint-Georges",
-      "code_postal": "23230",
-      "commune": "Bord-Saint-Georges",
-      "latitude": 46.2603046,
-      "longitude": 2.29859,
-      "telephone": "+33 5 55 65 70 45",
-      "horaires": "Tu-Su 08:30-12:15",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/9403348052"
     },
     {
       "id": "node:13998297451",
@@ -328774,19 +328774,6 @@
       "osm_url": "https://www.openstreetmap.org/node/3056994708"
     },
     {
-      "id": "node:9841821039",
-      "nom": "La Feuille d'Or",
-      "adresse": "45100, Orléans",
-      "code_postal": "45100",
-      "commune": "Orléans",
-      "latitude": 47.8387609,
-      "longitude": 1.9308066,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/9841821039"
-    },
-    {
       "id": "node:12465218698",
       "nom": "Boulangerie Comprido",
       "adresse": "98, Grande Rue, 45110, Châteauneuf-sur-Loire",
@@ -347141,19 +347128,6 @@
       "horaires": "",
       "site": "https://www.espritpain.com/",
       "osm_url": "https://www.openstreetmap.org/node/12279151201"
-    },
-    {
-      "id": "node:1634476290",
-      "nom": "Au levain d'Lingo",
-      "adresse": "5, Square de Coubertin, 67380, Lingolsheim",
-      "code_postal": "67380",
-      "commune": "Lingolsheim",
-      "latitude": 48.563844,
-      "longitude": 7.6940799,
-      "telephone": "+33 3 88 78 27 04",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/1634476290"
     },
     {
       "id": "node:14058137328",
@@ -369477,6 +369451,19 @@
       "osm_url": "https://www.openstreetmap.org/node/8422679118"
     },
     {
+      "id": "node:14411751480",
+      "nom": "Maitre Panisse",
+      "adresse": "1000, Rue du Docteur Schweitzer, 83210, La Farlède",
+      "code_postal": "83210",
+      "commune": "La Farlède",
+      "latitude": 43.1545084,
+      "longitude": 6.0456635,
+      "telephone": "+33494654118",
+      "horaires": "Mo-Fr 06:00-19:00; Sa 06:00-16:00; Su,PH off",
+      "site": "https://maitrepanisse-lafarlede.fr/",
+      "osm_url": "https://www.openstreetmap.org/node/14411751480"
+    },
+    {
       "id": "way:129941636",
       "nom": "Le pétrin Ribeïrou",
       "adresse": "310, Avenue de l'Arlésienne, 83210, Solliès-Pont",
@@ -372740,19 +372727,6 @@
       "osm_url": "https://www.openstreetmap.org/node/4583775189"
     },
     {
-      "id": "node:1380946417",
-      "nom": "Boulangerie sans nom",
-      "adresse": "59, Rue Jean Mermoz, 86000, Poitiers",
-      "code_postal": "86000",
-      "commune": "Poitiers",
-      "latitude": 46.5886386,
-      "longitude": 0.3268673,
-      "telephone": "",
-      "horaires": "",
-      "site": "",
-      "osm_url": "https://www.openstreetmap.org/node/1380946417"
-    },
-    {
       "id": "node:8032560402",
       "nom": "Caillaud Olivier",
       "adresse": "65, Avenue de l'Europe, 86000, Poitiers",
@@ -372764,6 +372738,19 @@
       "horaires": "07:30-12:00,15:30-19:00",
       "site": "",
       "osm_url": "https://www.openstreetmap.org/node/8032560402"
+    },
+    {
+      "id": "node:1380946417",
+      "nom": "La Mie de Bel Air",
+      "adresse": "59, Rue Jean Mermoz, 86000, Poitiers",
+      "code_postal": "86000",
+      "commune": "Poitiers",
+      "latitude": 46.5886386,
+      "longitude": 0.3268673,
+      "telephone": "+33549387518",
+      "horaires": "Mo-Sa 06:30-20:00",
+      "site": "",
+      "osm_url": "https://www.openstreetmap.org/node/1380946417"
     },
     {
       "id": "node:6225057651",
