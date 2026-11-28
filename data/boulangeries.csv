@@ -378,6 +378,7 @@ node:6143405215;Atelier des Pains;5, Rue du Trinquet;;;43.3618851;-1.4005059;;"0
 node:12356437361;Atelier des Pains;15, Rue Pierre et Marie Curie;;;48.6523744;2.5624122;+33 1 70 33 42 74;Mo-Sa 08:00-19:30;;https://www.openstreetmap.org/node/12356437361
 node:860142364;Atelier des Pains;;;;43.2361399;2.369694;;"Mo-Sa 06:30-19:30; Su 06:30-13:30";;https://www.openstreetmap.org/node/860142364
 node:10759243424;Atelier des Saveurs;;;;50.6506915;3.0724888;+33 3 20 55 11 78;"Su 07:00-13:00; Mo-Sa 07:00-19:30";https://www.ateliersaveursmadeleine.com/;https://www.openstreetmap.org/node/10759243424
+node:7645837333;Atelier du Moulin;;;;43.6448802;-1.0455201;+33 6 49 67 33 45;"07:00-12:30,17:00-19:00; Tu off";;https://www.openstreetmap.org/node/7645837333
 node:8367723889;Atelier du gourmand;;;;50.8831031;2.4694717;+33 3 28 65 67 79;;;https://www.openstreetmap.org/node/8367723889
 node:3078079758;Atelier du pain;;;;47.2403727;6.0243297;;"Tu-Fr 07:00-19:30; Mo,Sa 07:30-19:30";;https://www.openstreetmap.org/node/3078079758
 node:9864451697;Atelier n° 2;;;;48.0108714;0.19916;;"Mo 10:00-13:30,16:00-19:00; Tu-Fr 07:30-13:30,16:00-19:00; Su 07:30-13:00";;https://www.openstreetmap.org/node/9864451697
@@ -1646,7 +1647,6 @@ node:5868909801;Aux Saveurs du Parc;;;;48.840073;2.2558715;;Tu-Su 07:00-20:00;;h
 node:2509886561;Aux Saveurs du Port;1, Rue Saint-Vincent;;;47.6545218;-2.758154;;We-Mo 07:30-19:30;;https://www.openstreetmap.org/node/2509886561
 node:13011817388;Aux Saveurs d’Emé;;;;47.6967046;0.4181178;+33 2 43 44 04 24;"Mo, Tu, Th, Fr 06:30-19:30; Sa 06:30-19:00; Su 06:30-13:00";;https://www.openstreetmap.org/node/13011817388
 node:11118921361;Aux Sources du Pain;;;;45.7867552;6.0541816;+33 4 50 19 26 69;Tu-Sa 07:30-13:00, 14:45-19:00;;https://www.openstreetmap.org/node/11118921361
-node:2874305001;Aux Surprises;;;;48.883913;2.290743;+33 1 44 09 76 83;;;https://www.openstreetmap.org/node/2874305001
 node:1385469002;Aux Tendres Épis;;;;47.9682829;0.1556296;;"Tu-Sa 06:30-13:30,15:30-19:30; Su 06:30-13:00";;https://www.openstreetmap.org/node/1385469002
 node:11611355239;Aux Tentations de Philippe;;;;50.2755369;2.8175057;;;;https://www.openstreetmap.org/node/11611355239
 node:1812560356;Aux Trois Petits Choux;;;;47.0753111;-1.2498171;;"Tu-Sa 07:00-13:30,15:30-19:00; Su 07:00-13:00";;https://www.openstreetmap.org/node/1812560356
@@ -2354,7 +2354,6 @@ way:424493636;Boulangerie;;;;48.76881275714286;4.8362126000000005;;;;https://www
 node:4304892106;Boulangerie;;;;41.7479035;9.1716231;;;;https://www.openstreetmap.org/node/4304892106
 way:180493533;Boulangerie;;;;47.759651;6.740997222222223;;;;https://www.openstreetmap.org/way/180493533
 node:3592537374;Boulangerie;;;;49.3521622;0.9301459;;;;https://www.openstreetmap.org/node/3592537374
-node:4419397658;Boulangerie;;;;49.5245841;0.7271122;;;;https://www.openstreetmap.org/node/4419397658
 node:989431381;Boulangerie;;;;48.895015;2.2659078;;;;https://www.openstreetmap.org/node/989431381
 node:1668685256;Boulangerie;15, Place des Pianos;;;48.9195043;2.3426998;;;;https://www.openstreetmap.org/node/1668685256
 node:1775070385;Boulangerie;;;;48.99746;1.7412439;;;;https://www.openstreetmap.org/node/1775070385
@@ -3075,6 +3074,7 @@ node:4799048551;Boulangerie Colin;19;;;47.6225407;-1.1964405;+33 2 40 55 43 22;;
 node:2293879476;Boulangerie Collomp;5, Rue du Lieutenant Blondeau;;;43.846635;6.5141607;;Mo-Sa 07:00-19:00;;https://www.openstreetmap.org/node/2293879476
 node:840465125;Boulangerie Colombet;;;;44.667784;6.7772881;;Mo-Su 07:00-13:00,15:30-19:00;;https://www.openstreetmap.org/node/840465125
 node:1574362581;Boulangerie Comont;3, Rue de l'Église;;;49.372086;2.6523043;+33 3 44 41 47 25;"Mo off; Tu-Sa 07:00-13:00,16:00-19:00; Su 07:00-13:00";;https://www.openstreetmap.org/node/1574362581
+node:12465218698;Boulangerie Comprido;;;;47.8631131;2.2230174;+332 38 58 43 13;"Tu-Fr 06:30-19:30; Sa 07:00-19:30";;https://www.openstreetmap.org/node/12465218698
 node:13230349611;Boulangerie Conan;;;;49.231289;-0.0442776;+33 9 75 39 81 19;Tu-Su 06:30-19:30;;https://www.openstreetmap.org/node/13230349611
 node:1457189198;Boulangerie Conge;;;;49.1088602;6.4077776;"+33 9 81 64 12 41;+33 3 87 64 12 41";"Tu-Fr 04:30-12:30,14:00-19:00; Sa 04:30-18:30; Su 04:30-12:30";https://www.boulangerie-conge.fr;https://www.openstreetmap.org/node/1457189198
 way:145684253;Boulangerie Conoir;;;;48.0671356;-2.8794442;;;;https://www.openstreetmap.org/way/145684253
@@ -3361,6 +3361,7 @@ node:1400350293;Boulangerie Flûte ! le pain;5, Rue du Château;;;48.8758731;2.1
 node:305771272;Boulangerie Foch;;;;48.8004923;2.4961319;;;;https://www.openstreetmap.org/node/305771272
 node:9229541176;Boulangerie Foch;21, Avenue Maréchal Foch;;;43.7033609;7.269318;;;;https://www.openstreetmap.org/node/9229541176
 node:674049725;Boulangerie Folpain;;;;43.610598;3.865561;+33 4 15 39 23 89;"Mo-Sa 08:00-13:00,16:00-19:00; Su 08:00-13:00";;https://www.openstreetmap.org/node/674049725
+node:12466672842;Boulangerie Fosse;;;;47.8638448;2.2203393;;;;https://www.openstreetmap.org/node/12466672842
 node:7371763728;Boulangerie Fouchard;;;;48.3274689;-1.4254761;;;;https://www.openstreetmap.org/node/7371763728
 node:7362812925;Boulangerie Fouillé;;;;45.6562532;-1.0778752;;;;https://www.openstreetmap.org/node/7362812925
 node:5085739720;Boulangerie Fournier;3, Rue de la République;;;49.9391023;2.7162709;+33 3 22 75 85 73;;;https://www.openstreetmap.org/node/5085739720
@@ -5836,6 +5837,7 @@ node:7257331323;Boulangerie pâtisserie Fages;;;;45.6239464;4.0639287;;"Tu-Sa 06
 node:3646424189;Boulangerie pâtisserie Flo;;;;45.5817881;5.4165946;;;;https://www.openstreetmap.org/node/3646424189
 node:2351325127;Boulangerie pâtisserie G. Vandroux;;;;45.6508625;5.4701253;;;;https://www.openstreetmap.org/node/2351325127
 node:11388629510;Boulangerie pâtisserie Giustinati;8, Rue du Général Newinger;;;49.1792587;6.4965411;;;https://m.facebook.com/giustinati/;https://www.openstreetmap.org/node/11388629510
+node:13918513585;Boulangerie pâtisserie J&G;;;;47.633533;6.8507596;+33 3 84 99 33 07;"Mo-Fr 07:00-14:00; We off; Sa,Su 07:30-12:00";;https://www.openstreetmap.org/node/13918513585
 node:12542793834;Boulangerie pâtisserie Kebaili;;;;50.6858985;3.1871284;;;;https://www.openstreetmap.org/node/12542793834
 node:13824580748;Boulangerie pâtisserie La Petite Normande;;;;49.1089634;0.7112588;;;;https://www.openstreetmap.org/node/13824580748
 node:1832901748;Boulangerie pâtisserie Lassimonne;;;;46.566824;3.33239;;;;https://www.openstreetmap.org/node/1832901748
@@ -6860,6 +6862,7 @@ node:14058274281;Boulangerie sans nom;;;;47.7127375;2.2123672;;;;https://www.ope
 node:14114131454;Boulangerie sans nom;;;;47.0862943;0.7913697;;;;https://www.openstreetmap.org/node/14114131454
 node:14205830701;Boulangerie sans nom;1, Rue du Gâtinais;;;47.9426042;3.0541429;;;;https://www.openstreetmap.org/node/14205830701
 node:14401624252;Boulangerie sans nom;;;;47.099122;1.0138525;;;;https://www.openstreetmap.org/node/14401624252
+node:14423196262;Boulangerie sans nom;;;;48.0531753;3.0125036;+33 2 38 07 35 80;;;https://www.openstreetmap.org/node/14423196262
 way:53205653;Boulangerie sans nom;;;;47.1344553625;0.9990815875;;;;https://www.openstreetmap.org/way/53205653
 way:60444150;Boulangerie sans nom;6;;;48.19572002307692;1.090914976923077;;;;https://www.openstreetmap.org/way/60444150
 way:67636828;Boulangerie sans nom;24, Rue des Changes;;;48.209863580000004;1.1666906300000002;;;;https://www.openstreetmap.org/way/67636828
@@ -6877,7 +6880,6 @@ way:153578653;Boulangerie sans nom;;;;46.93538983333334;2.2690245;;;;https://www
 way:162912304;Boulangerie sans nom;;;;48.85678066666666;1.4377781666666667;;;;https://www.openstreetmap.org/way/162912304
 way:172306495;Boulangerie sans nom;;;;47.611372749999994;1.9047654166666668;;;;https://www.openstreetmap.org/way/172306495
 way:174321579;Boulangerie sans nom;;;;48.07247039230769;1.3220027692307694;;;;https://www.openstreetmap.org/way/174321579
-way:175621920;Boulangerie sans nom;;;;48.0532172;3.0121476;;;;https://www.openstreetmap.org/way/175621920
 way:175692994;Boulangerie sans nom;;;;47.54231386666667;1.8491546666666667;;;;https://www.openstreetmap.org/way/175692994
 way:175708079;Boulangerie sans nom;;;;48.08945729;2.9817974200000004;;;;https://www.openstreetmap.org/way/175708079
 way:180207481;Boulangerie sans nom;;;;47.59530688823529;2.0225417470588236;;;;https://www.openstreetmap.org/way/180207481
@@ -7138,7 +7140,6 @@ node:12170539037;Boulangerie sans nom;;;;46.999183;5.7468873;;;;https://www.open
 node:12588668838;Boulangerie sans nom;;;;47.6117757;6.1859625;;;;https://www.openstreetmap.org/node/12588668838
 node:12861210942;Boulangerie sans nom;;;;47.6331513;6.8165732;;;;https://www.openstreetmap.org/node/12861210942
 node:12879698486;Boulangerie sans nom;;;;46.9412453;5.8784791;;;;https://www.openstreetmap.org/node/12879698486
-node:13918513585;Boulangerie sans nom;;;;47.633533;6.8507596;+33 3 84 99 33 07;"Mo-Fr 07:00-14:00; We off; Sa,Su 07:30-12:00";;https://www.openstreetmap.org/node/13918513585
 node:13953504576;Boulangerie sans nom;;;;46.3995426;5.7919937;;;;https://www.openstreetmap.org/node/13953504576
 node:14111917548;Boulangerie sans nom;;;;46.9526189;5.5021381;;"Mo-We, Fr 06:30-19:00; Su 06:30-12:30";;https://www.openstreetmap.org/node/14111917548
 way:90201413;Boulangerie sans nom;;;;47.18551609090909;5.819660272727273;;;;https://www.openstreetmap.org/way/90201413
@@ -11826,6 +11827,7 @@ node:2150531036;JH Boulangerie;;;;48.1979658;3.272134;;;;https://www.openstreetm
 node:4127966165;JM Boulangerie;;;;46.3082829;3.2919725;;;;https://www.openstreetmap.org/node/4127966165
 node:2193812801;JM patisserie;;;;43.5026897;5.7351482;;;;https://www.openstreetmap.org/node/2193812801
 node:3017411876;JPA;;;;43.7759886;2.1904389;;;;https://www.openstreetmap.org/node/3017411876
+node:14422613196;JSV;;;;48.4454666;1.5773013;;"Tu-Fr 09:00-13:00; Sa-Su 08:30-12:30";;https://www.openstreetmap.org/node/14422613196
 node:4973931755;Jacob's;5, Rue de l'Esplanade;;;43.5241547;5.4406967;;;;https://www.openstreetmap.org/node/4973931755
 way:160472496;Jacquel Julien;31, Avenue du Général de Gaulle;;;47.67024916;6.9193014;+33384299018;"Tu-Fr 06:30-13:00, 14:00-19:00; Sa 06:30-12:30; Su 07:00-12:00";;https://www.openstreetmap.org/way/160472496
 node:2383655370;Jacqueline;;;;48.5991115;-0.8322354;;;;https://www.openstreetmap.org/node/2383655370
@@ -13029,7 +13031,7 @@ node:9902314118;La Clef des Champs;;;;47.4111153;0.9810475;;Tu-Sa 07:00-13:15, 1
 node:9286099080;La Clichoise;3, Rue du Landy;;;48.9044598;2.3032582;;"Mo-Tu, Th-Fr 06:30-20:00; Sa-Su 07:00-20:59";;https://www.openstreetmap.org/node/9286099080
 node:12057106300;La Clé du Moulin;2 bis, Rue Anatole France;;;43.4481259;3.7549438;+33 4 48 08 43 07;"Tu-Su 06:30-13:30; Tu-Sa 16:00-19:30";;https://www.openstreetmap.org/node/12057106300
 node:2515541660;La Clémentalice;;;;47.2216462;-1.5632636;+33 2 40 89 58 74;"Mo-Fr 07:00-19:30; Sa 07:00-15:00; Su off";https://laclementalice.business.site;https://www.openstreetmap.org/node/2515541660
-node:11040349598;La Clémentine;10 bis, Avenue Durante;;;43.7026786;7.2626655;;;;https://www.openstreetmap.org/node/11040349598
+node:11040349598;La Clémentine;;;;43.7026786;7.2626655;;;;https://www.openstreetmap.org/node/11040349598
 node:1069895698;La Colombe;;;;48.7302387;2.2765665;+33 1 69 20 05 93;"Mo-We,Fr-Su 06:30-20:00; Th off";;https://www.openstreetmap.org/node/1069895698
 node:3204079818;La Colombe;;;;43.2898471;5.4397271;;;;https://www.openstreetmap.org/node/3204079818
 node:11035806649;La Colombine;;;;48.9260188;2.2419256;;;;https://www.openstreetmap.org/node/11035806649
@@ -15237,7 +15239,7 @@ node:5722419514;Le Fournil;17, Rue de la Raffinerie;;;46.6189506;-0.9113502;;;;h
 node:3188469312;Le Fournil;;;;49.1948318;1.8797797;+33 4 44 22 18 08;"Mo-Fr 08:00-19:00; Sa 08:00-18:00; Su off";;https://www.openstreetmap.org/node/3188469312
 node:11176618782;Le Fournil;35, Rue des 17 Martyrs;;;49.2617263;2.1641301;+33 3 44 52 15 62;"Mo-Tu,Th-Sa 07:00-13:00,15:30-19:30; Su 07:00-13:00; We off";;https://www.openstreetmap.org/node/11176618782
 node:1046660035;Le Fournil;;;;46.3299156;-0.4427939;;PH,Fr-We 07:00-20:00+;;https://www.openstreetmap.org/node/1046660035
-node:1864070475;Le Fournil;90, Boulevard André Sautel;;;46.169069;-1.1289239;;PH,Fr-We 06:30-20:00;;https://www.openstreetmap.org/node/1864070475
+node:1864070475;Le Fournil;90, Boulevard André Sautel;;;46.169069;-1.1289239;;"Mo-We,Fr,Sa 06:30-19:30; Su,PH 06:30-19:00";;https://www.openstreetmap.org/node/1864070475
 node:1867522157;Le Fournil;;;;43.7155201;7.2903781;;;;https://www.openstreetmap.org/node/1867522157
 node:2390512682;Le Fournil;;;;43.5242271;6.9406984;;;;https://www.openstreetmap.org/node/2390512682
 node:2912636125;Le Fournil;;;;43.4764415;6.1839359;;;;https://www.openstreetmap.org/node/2912636125
@@ -15469,6 +15471,7 @@ node:3024124826;Le Fournil de Bourgchevreuil;;;;48.1222925;-1.5995254;+33 2 99 8
 way:176135947;Le Fournil de Brazey;;;;47.133010222222225;5.2159904444444445;;;;https://www.openstreetmap.org/way/176135947
 node:6240219598;Le Fournil de Breteuil;;;;43.2895802;5.3760387;;"Mo-Fr 06:30-21:00; Sa 07:00-20:00";;https://www.openstreetmap.org/node/6240219598
 node:4452452785;Le Fournil de Broceliande;;;;48.1053316;-1.6730502;+33 9 71 52 53 27;"Mo-Fr 07:00-19:30; PH off";;https://www.openstreetmap.org/node/4452452785
+node:14424726311;Le Fournil de Bruay;;;;50.3978103;3.5401558;;;;https://www.openstreetmap.org/node/14424726311
 node:1361529781;Le Fournil de Bruno;;;;44.086063;4.885861;+33 4 90 11 78 20;Mo-Su,PH 06:00-19:30;;https://www.openstreetmap.org/node/1361529781
 node:14041148513;Le Fournil de Bruno;;;;45.0150797;4.9384131;;;;https://www.openstreetmap.org/node/14041148513
 node:10924871481;Le Fournil de Bruno et Stéphanie;3, Boulevard Pablo Picasso;;;49.2341371;2.1268874;+33 3 44 22 19 05;"Mo-Tu 06:30-13:00,15:00-19:00; We off; Th-Sa 06:30-13:00,15:00-19:00; Su 06:30-13:30";;https://www.openstreetmap.org/node/10924871481
@@ -18172,6 +18175,7 @@ node:2833245055;Maison Breteau;;;;48.7774432;2.2540005;+33 145371437;;;https://w
 node:7287979785;Maison Bril;30, Rue de la Gare;;;50.7342345;2.7343265;;"Mo off; Tu-Sa 06:30-13:00,15:00-19:00; Su 06:30-12:30";;https://www.openstreetmap.org/node/7287979785
 node:12677009901;Maison Bril;;;;50.7401675;2.7371092;;"Mo off; Tu-Sa 07:00-19:00; Su 07:00-12:30";;https://www.openstreetmap.org/node/12677009901
 node:14350036950;Maison Bril;;;;50.7388151;2.7235556;;;;https://www.openstreetmap.org/node/14350036950
+node:4419397658;Maison Brilhault;;;;49.5245841;0.7271122;;;;https://www.openstreetmap.org/node/4419397658
 node:7055656570;Maison Brière;;;;49.4391046;1.0966096;;;;https://www.openstreetmap.org/node/7055656570
 node:13695510086;Maison Brodin;;;;48.1099065;-1.6460783;;"Mo-Fr 07:00-19:30; Sa 07:00-13:30";;https://www.openstreetmap.org/node/13695510086
 node:8651730034;Maison Bronte;;;;43.7452877;4.7961201;;;;https://www.openstreetmap.org/node/8651730034
@@ -18677,6 +18681,7 @@ node:409257594;Maison Mathieu;;;;45.7271443;4.8626172;+33 4 78 75 84 47;Mo-Su 06
 node:2886984801;Maison Mathieu Pacaud;;;;48.8743208;2.3074302;;;;https://www.openstreetmap.org/node/2886984801
 node:1490230720;Maison Maudhuizon;;;;46.3434693;-1.4378112;;;;https://www.openstreetmap.org/node/1490230720
 node:1049265600;Maison Maureille;;;;47.6172929;3.198129;;"We-Sa 07:00-13:00,15:00-18:00; Su 07:00-13:00";;https://www.openstreetmap.org/node/1049265600
+node:12465292851;Maison Maureille;;;;47.8629974;2.223587;+332 38 58 44 24;"Mo-We,Fr 06:30-19:30; Sa 07:00-19:30; Su 07:00-19:00";;https://www.openstreetmap.org/node/12465292851
 node:2809828721;Maison Maury;4, Cours de la République;;;43.1833051;3.0043183;+33 4 68 32 12 54;Mo-Su 06:00-20:00;;https://www.openstreetmap.org/node/2809828721
 node:1670120528;Maison Maé;;;;48.8699762;2.3603085;+33 1 40 34 89 83;"Mo,Tu,Th-Su 07:00-20:30; We off";;https://www.openstreetmap.org/node/1670120528
 node:8593480006;Maison Maître;;;;47.5606709;6.8519618;;"Tu-Sa 06:00-19:00; Su 06:00-12:00";;https://www.openstreetmap.org/node/8593480006
@@ -19598,6 +19603,7 @@ node:11982640919;Marie-Blachère;;;;44.0725995;4.0805303;;;;https://www.openstre
 node:512562141;Marie-Laure et Thierry Felt;;;;48.3460602;6.6371574;+33 3 29 65 08 42;"Mo-Fr 06:15-19:00; Sa 06:15-14:00";;https://www.openstreetmap.org/node/512562141
 way:148417852;Mariette;;;;47.784305690909086;7.332223227272727;;;;https://www.openstreetmap.org/way/148417852
 node:3929497019;Mariette;;;;45.6805903;3.1921196;+33 4 73 40 56 43;"Mo-We,Fr-Sa 06:30-19:45; Su 06:30-13:00";;https://www.openstreetmap.org/node/3929497019
+node:1637201368;Mariette;;;;49.1918954;-0.3962176;;;;https://www.openstreetmap.org/node/1637201368
 node:14380129600;Mariette;;;;48.4151497;-4.4351008;;;;https://www.openstreetmap.org/node/14380129600
 node:2957785613;Mariette;;;;47.0976737;2.4545879;;Mo-Su 06:30-13:30;;https://www.openstreetmap.org/node/2957785613
 way:299585671;Mariette;205, Rue Louis Mallet;;;47.08230514666666;2.3643455666666666;;Mo-Su 06:30-13:30;;https://www.openstreetmap.org/way/299585671
@@ -19733,7 +19739,6 @@ node:10830407385;Michotte & Confiote;63, Rue de Turenne;;;47.6726031;6.8436021;+
 node:7812253925;Mickaël & Mélanie Babin;;;;46.5587365;0.5042374;;"Mo, We-Sa 06:15-13:30, 15:00-19:30; Su,PH 06:15-13:00";;https://www.openstreetmap.org/node/7812253925
 node:1834146518;Mickaël Leroy;;;;44.9213407;2.8378426;+33 4 71 20 95 16;"Tu-Sa 07:30-12:30,15:00-19:00; Th 07:30-12:30; Su 07:30-13:00";;https://www.openstreetmap.org/node/1834146518
 node:1801886704;Midoré;;;;48.8780349;2.3268217;;"Mo-Fr 07:00-20:00; Sa 08:00-19:00";;https://www.openstreetmap.org/node/1801886704
-node:2383720020;Midoré;;;;48.8663973;2.3511799;;"Mo-Fr 07:00-20:00; Sa 07:00-19:00; Su off";;https://www.openstreetmap.org/node/2383720020
 node:3797982377;Midoré;;;;48.8762121;2.3026571;;"Mo-Fr 07:00-20:00; Sa 08:00-19:00";;https://www.openstreetmap.org/node/3797982377
 node:7362736077;Midoré;8, Rue de Vienne;;;48.8767116;2.3216991;;"Mo-Fr 07:00-20:00; Sa 07:30-19:00";;https://www.openstreetmap.org/node/7362736077
 node:9082433433;Midoré;;;;48.8762984;2.3024752;;;;https://www.openstreetmap.org/node/9082433433
@@ -20970,7 +20975,6 @@ node:4409703424;Pâtisserie Dekker;;;;43.4277333;3.6054404;;;;https://www.openst
 node:8158068683;Pâtisserie Explore;59;;;43.487662;-1.5356589;+335 40 69 02 39;"Mo-Sa 07:30-13:00,15:00-19:30; We off; Su 07:45-13:00";https://explorepatisserie.com/;https://www.openstreetmap.org/node/8158068683
 way:149202467;Pâtisserie Gaugler;;;;47.78690090625;7.33372965;+33 3 89 53 00 11;"Tu-Fr 07:30-18:30; Sa 08:00-17:00";;https://www.openstreetmap.org/way/149202467
 node:14064012685;Pâtisserie Giannelli;;;;43.891971;-0.3043383;+33 5 58 45 28 57;"Tu-Sa 06:30-18:00; Su 06:30-13:00";;https://www.openstreetmap.org/node/14064012685
-node:1495312336;Pâtisserie Hoffmann;;;;49.5040104;6.2774457;;"Mo-Sa 06:00-19:00; Su 06:00-18:00";;https://www.openstreetmap.org/node/1495312336
 node:1236518959;Pâtisserie Hubert;31, Rue de Maubeuge;;;48.8782649;2.3446579;;Th-Tu 07:00-20:00;;https://www.openstreetmap.org/node/1236518959
 node:3935766686;Pâtisserie JF Saison;198, Rue Camille Desmoulins;;;49.8993069;3.6271145;+33 3 23 61 01 03;"Mo off; Tu-Sa 08:30-12:00,14:30-18:30; Su 08:30-13:00";;https://www.openstreetmap.org/node/3935766686
 node:12851619901;Pâtisserie Jacques;21, Avenue de Bâle;;;47.5842265;7.5651804;;;https://patisserie-jacques.fr/;https://www.openstreetmap.org/node/12851619901
@@ -23460,7 +23464,7 @@ way:77817145;Messidor;Rue de Pen Ar Guer, 22710, Penvénan;22710;Penvénan;48.80
 node:340210034;Les Moissons de Gaïa (Boulangerie - Pâtisserie artisanale);4, Place de l'Église, 22720, Plésidy;22720;Plésidy;48.4483066;-3.1235125;;;;https://www.openstreetmap.org/node/340210034
 node:4945588472;Mariette;15, 22730, Trégastel;22730;Trégastel;48.8265541;-3.5115417;;Mo-Su 07:30-19:30;;https://www.openstreetmap.org/node/4945588472
 node:4353065546;Le Palet des Gourmandises;15, Rue du Centre, 22940, Saint-Julien;22940;Saint-Julien;48.4528899;-2.8148941;+33 9 62 07 69 94;;;https://www.openstreetmap.org/node/4353065546
-node:14287085001;Au P’tit Fournil;2, Rue de Verdun, 22950;22950;;48.4889315;-2.7365606;0296712775;;;https://www.openstreetmap.org/node/14287085001
+node:14287085001;Au P’tit Fournil;2, Rue de Verdun, 22950;22950;;48.4889315;-2.7365606;+33 2 96 71 27 75;;;https://www.openstreetmap.org/node/14287085001
 node:11582569884;Boulangerie Feuillette;7, Rue Jean Monnet, 22950, Trégueux;22950;Trégueux;48.4927675;-2.7636749;+33 2 21 81 01 34;Mo-Su 07:00-20:00;https://etablissements.groupe-feuillette.fr/etablissement/boulangerie-feuillette-tregueux;https://www.openstreetmap.org/node/11582569884
 node:8844600562;Patisserie Villechalane;34, 23000, Guéret;23000;Guéret;46.1701985;1.8677169;;;;https://www.openstreetmap.org/node/8844600562
 node:12277037739;Festival des Pains;23, Grande Rue, 23130, Chénérailles;23130;Chénérailles;46.1130359;2.1759199;+33555623031;"Mo-Su 07:15-12:30; Mo-Sa 16:00-19:00";;https://www.openstreetmap.org/node/12277037739
@@ -23717,7 +23721,6 @@ node:11765850672;Aux Co'Pains Gourmands;1, Rue de la République, 28600, Luisant
 node:9954033806;L'Atelier de l'Ozanne;25, Rue des Pierres Missigault, 28630, Barjouville;28630;Barjouville;48.4151841;1.4698364;+33 2 37 18 08 95;Mo-Sa 07:00-20:00, Su 07:00-18:00;https://www.latelierdelozanne.fr/;https://www.openstreetmap.org/node/9954033806
 node:6416472373;Marie Blachère;45, Rue des Pierres Missigault, 28630, Barjouville;28630;Barjouville;48.4136456;1.4647154;+33 2 37 34 49 38;Mo-Sa 07:00-19:30;https://www.marieblachere.com/;https://www.openstreetmap.org/node/6416472373
 node:11483778688;Paul;1, Rue des Orvilles, 28630, Barjouville;28630;Barjouville;48.4116837;1.4647148;+33 2 42 50 00 86;Mo-Sa 09:00-20:00;https://www.paul.fr/stores/chartres_barjouville;https://www.openstreetmap.org/node/11483778688
-node:13607234286;JSV;Rue du Tertre, 28630, Nogent-le-Phaye;28630;Nogent-le-Phaye;48.4454683;1.577299;;"Tu-Fr 09:00-13:00; Sa-Su 08:30-12:30";;https://www.openstreetmap.org/node/13607234286
 node:1863976756;Boulangerie Chesneau;3, Place Farcot, 28700;28700;;48.4155408;1.8787273;;"Mo-Sa 06:45-13:30,16:00-20:15; Su 07:15-13:30; We off";;https://www.openstreetmap.org/node/1863976756
 node:12846794902;Boulangerie sans nom;18, Place de l'Église, 28800;28800;;48.2437257;1.4846503;;;;https://www.openstreetmap.org/node/12846794902
 node:370688050;Les Lichouseries de Lokmaria;34, 29000;29000;;47.9872148;-4.107815;;"Mo-Sa 06:45-19:45; Su,PH 06:45-19:00";;https://www.openstreetmap.org/node/370688050
@@ -24935,7 +24938,6 @@ node:8100924651;Pâtisserie du Golf;495, Avenue du Touring Club de France, 40150
 node:2017878558;Chez Guillaume;130, Avenue du 8 Mai, 40160, Parentis-en-Born;40160;Parentis-en-Born;44.3484743;-1.0749543;+33 5 58 78 41 17;;;https://www.openstreetmap.org/node/2017878558
 node:7405067542;La Ronde des Pains;163, Avenue du Marensin, 40170, Lit-et-Mixe;40170;Lit-et-Mixe;44.030859;-1.2571152;;PH,Mo-Su 06:30-12:45,16:00-19:30;;https://www.openstreetmap.org/node/7405067542
 node:286923612;Le Fournil de Mézos;Avenue de l'Océan, 40170, Mézos;40170;Mézos;44.0762027;-1.1682822;;"Mo-Sa 07:00-12:30,16:00-19:00; Su 07:00-12:30,17:00-17:15";;https://www.openstreetmap.org/node/286923612
-node:7645837333;Atelier du Moulin;350, Route de la Sablière, 40180, Bénesse-lès-Dax;40180;Bénesse-lès-Dax;43.6448802;-1.0455201;+33 6 49 67 33 45;"07:00-12:30,17:00-19:00; Tu off";;https://www.openstreetmap.org/node/7645837333
 node:12729693181;Aux Grains de la Ferme;700, Route de Leborde, 40180, Clermont;40180;Clermont;43.6614193;-0.9009841;+33 6 61 13 36 88;;;https://www.openstreetmap.org/node/12729693181
 node:7402096286;Boulangerie Dassié;44, Rte de Poyartin, 40180, Hinx;40180;Hinx;43.7016361;-0.9257638;+33 5 58 89 50 14;"Mo-Sa 06:00-13:00,15:30-19:30; Su 06:00-13:00";;https://www.openstreetmap.org/node/7402096286
 node:8412087814;Chez Christine et Victor;130, Route des Pyrénées, 40180, Narrosse;40180;Narrosse;43.6959894;-1.0188023;+33 5 58 91 75 74;Tu-Su 06:30-19:30;;https://www.openstreetmap.org/node/8412087814
@@ -25293,11 +25295,8 @@ node:3466390178;Les Co-pains;121, Rue de la Barrière Saint-Marc, 45000, Orléan
 node:3468251912;Boulangerie Pâtisserie Le Manac'h David;5, Place de la Bascule, 45100, Orléans;45100;Orléans;47.894511;1.9070765;+33 238662732;;;https://www.openstreetmap.org/node/3468251912
 node:1763627054;Boulangerie des roseraies;2, Allée des Roseraies, 45100, Orléans;45100;Orléans;47.8830418;1.9074527;+33 2 38 51 28 57;Mo-Sa 07:00-13:00,16:00-19:30;;https://www.openstreetmap.org/node/1763627054
 node:3056994708;Boulangerie-Patisserie;9, Rue des Pivoines, 45100, Orléans;45100;Orléans;47.886784;1.9103731;;Mo-Su 06:30-21:00;;https://www.openstreetmap.org/node/3056994708
-node:12465218698;Boulangerie Comprido;98, Grande Rue, 45110, Châteauneuf-sur-Loire;45110;Châteauneuf-sur-Loire;47.8631131;2.2230174;+332 38 58 43 13;"Tu-Fr 06:30-19:30; Sa 07:00-19:30";;https://www.openstreetmap.org/node/12465218698
-node:12466672842;Boulangerie Fosse;17, Grande Rue, 45110, Châteauneuf-sur-Loire;45110;Châteauneuf-sur-Loire;47.8638448;2.2203393;;;;https://www.openstreetmap.org/node/12466672842
 node:2306143014;Chocolatine;3, Rue de Lattre de Tassigny, 45110, Châteauneuf-sur-Loire;45110;Châteauneuf-sur-Loire;47.8645217;2.2191816;;"We-Fr 07:00-13:15,15:00-19:00; Tu 07:00-13:30,15:00-19:00";;https://www.openstreetmap.org/node/2306143014
 node:12526011959;Comprido;3, Rue de Lattre de Tassigny, 45110, Châteauneuf-sur-Loire;45110;Châteauneuf-sur-Loire;47.8646139;2.219188;;;;https://www.openstreetmap.org/node/12526011959
-node:12465292851;Maison Maureille;106, Grande Rue, 45110, Châteauneuf-sur-Loire;45110;Châteauneuf-sur-Loire;47.8629974;2.223587;+332 38 58 44 24;"Mo-We,Fr 06:30-19:30; Sa 07:00-19:30; Su 07:00-19:00";;https://www.openstreetmap.org/node/12465292851
 node:2306338879;Aux Epis de Mibisa;93, Grande Rue, 45110, Saint-Martin-d'Abbat;45110;Saint-Martin-d'Abbat;47.8568955;2.2680272;;;https://www.boulangeriespatisseries.fr/aux-epis-de-mibisa-saint-martin-d-abbat.html;https://www.openstreetmap.org/node/2306338879
 way:295670744;Boulangerie de l'Horloge;2, Place du Martroi, 45130, Meung-sur-Loire;45130;Meung-sur-Loire;47.824627320000005;1.6947536800000003;+33 2 38 44 35 34;"We-Sa 07:00-13:00,15:00-19:30; Su 07:00-13:00";;https://www.openstreetmap.org/way/295670744
 node:4942877800;La Pétrie;45130, Meung-sur-Loire;45130;Meung-sur-Loire;47.8352115;1.7083851;+33 2 38 47 10 12;Mo-Fr 06:30-19:00;;https://www.openstreetmap.org/node/4942877800
@@ -27589,7 +27588,7 @@ node:2231085173;Bonjour Bakery;75014;75014;;48.830154;2.3336686;;Fr-Tu 07:45-20:
 node:2273112665;Boulangerie sans nom;57, Rue du Père Corentin, 75014;75014;;48.8243823;2.3283563;;;;https://www.openstreetmap.org/node/2273112665
 node:1728471870;L'impérial;4, Avenue Reille, 75014;75014;;48.8262187;2.3412779;;Mo-Fr 06:15-20:00;;https://www.openstreetmap.org/node/1728471870
 node:1420832080;La Fournée d'Augustine;96, Rue Raymond Losserand, 75014;75014;;48.8328985;2.3160211;;Mo-Sa 07:30-20:00;;https://www.openstreetmap.org/node/1420832080
-node:996419552;Lorette;60, Boulevard Brune, 75014;75014;;48.8258446;2.3126614;;;;https://www.openstreetmap.org/node/996419552
+node:996419552;Lorette;60, Boulevard Brune, 75014;75014;;48.8258446;2.3126614;;"Mo,Tu,Th,Fr 06:00-20:00; Su,PH 06:00-19:00";;https://www.openstreetmap.org/node/996419552
 node:3240854555;Artocarpus;21, Rue Raymond Losserand, 75014, Paris;75014;Paris;48.8359926;2.3220037;;"Mo, Tu, Th, Fr 07:00-20:00; Sa 07:00-19:00; Su 07:00-13:00";;https://www.openstreetmap.org/node/3240854555
 node:301865656;Boulangerie Amelie & Nicolas;161, Rue Raymond Losserand, 75014, Paris;75014;Paris;48.8307104;2.3120538;;"Mo-Sa 06:30-20:00; Su 06:30-13:00";;https://www.openstreetmap.org/node/301865656
 node:1156195596;Fournil Didot;103, Rue Didot, 75014, Paris;75014;Paris;48.8282746;2.3160906;+33 1 56 08 22 76;;;https://www.openstreetmap.org/node/1156195596
@@ -29128,7 +29127,7 @@ node:8393699895;Les Gourmandises de la Garenne;2, Avenue Joffre, 92250, La Garen
 way:79767968;Artisan Boulanger;116, Jean Jaurès, 92270, Bois-Colombes;92270;Bois-Colombes;48.912531800000004;2.2617931833333333;;"Tu-Su 06:30-20:00; Mo 06:30-20:00";;https://www.openstreetmap.org/way/79767968
 node:1210679097;Maison Gahfif;25, Rue Hispano Suiza, 92270, Bois-Colombes;92270;Bois-Colombes;48.907726;2.261236;+33 1 47 85 82 31;;;https://www.openstreetmap.org/node/1210679097
 node:7474617733;Boulangerie;Rue Charles Chefson, 92270, Bois-colombes;92270;Bois-colombes;48.9205582;2.2708731;;;;https://www.openstreetmap.org/node/7474617733
-node:5304967240;Le Moulin des Princes;16, Rue Jean Longuet, 92290;92290;;48.7719923;2.280781;;"Mo-Su 07:00-21:00; Su 07:00-14:00";;https://www.openstreetmap.org/node/5304967240
+node:5304967240;Le Moulin des Princes;16, Rue Jean Longuet, 92290;92290;;48.7720086;2.2807851;;"Mo-Su 07:00-21:00; Su 07:00-14:00";;https://www.openstreetmap.org/node/5304967240
 node:2153795651;Aux Fins Délices;92, Rue Jean Longuet, 92290, Châtenay-Malabry;92290;Châtenay-Malabry;48.7675029;2.2795668;;"Mo-Tu 07:00-20:00; Th-Sa 07:00-20:00; Su 07:00-14:00";https://www.patisserie-ducomte.com/;https://www.openstreetmap.org/node/2153795651
 node:11112509394;Aux Mil’ Épis;1, Avenue Albert Thomas, 92290, Châtenay-Malabry;92290;Châtenay-Malabry;48.7652291;2.2604948;+33 1 46321424;"Mo off; Tu-Fr 06:30-20:00; Sa 07:00-20:00";;https://www.openstreetmap.org/node/11112509394
 node:13417803781;Maison Mgadam;358, Avenue de la Division Leclerc, 92290, Châtenay-Malabry;92290;Châtenay-Malabry;48.7657416;2.2607402;+33 9 56085965;Mo-Su 05:00-22:00;;https://www.openstreetmap.org/node/13417803781
